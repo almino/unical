@@ -9,13 +9,16 @@
     "preview": "nuxt preview"
   },
   "dependencies": {
+    "@iconify-json/streamline": "^1.2.5",
     "@nuxt/a11y": "1.0.0-alpha.1",
     "@nuxt/content": "^3.10.0",
     "@nuxt/eslint": "1.12.1",
     "@nuxt/image": "2.0.0",
     "@nuxt/ui": "4.3.0",
+    "@types/luxon": "^3.7.1",
     "better-sqlite3": "^12.5.0",
     "eslint": "^9.0.0",
+    "luxon": "^3.7.2",
     "nuxt": "^4.2.2",
     "typescript": "^5.6.3"
   }
