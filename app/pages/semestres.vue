@@ -71,5 +71,5 @@ const items = computed(() => {
 </script>
 
 <template>
-  <UTimeline :items="items" />
+  <UTimeline :items="items" size="xl" />
 </template>
