@@ -36,8 +36,95 @@ eventos:
   - data: 2025-05-01
     texto: I Corrida da Associação Atlética da UVA
   - data: 2025-05-03
-    tipo: comemorativo
+    tipo: comemorativa
     texto: Dia do Cientista Político
   - data: 2025-05-06
-    tipo: comemorativo
+    tipo: comemorativa
     texto: Dia Nacional da Matemática
+  - data: 2025-05-06
+    termina: 2025-05-08
+    texto: SOLENIDADE DE OUTORGA DE GRAU referente ao Período Letivo 2024.2
+  - data: 2025-05-07
+    termina: 2025-05-09
+    texto: XIX Semana de Filosofia
+  - data: 2025-05-12
+    tipo: comemorativa
+    texto: Dia do Enfermeiro
+  - data: 2025-05-13
+    tipo: comemorativa
+    texto: Dia do Zootecnista
+  - data: 2025-05-16
+    texto: RESULTADO das solicitações de OUTORGA DE GRAU referente ao Período Letivo 2024.2
+  - data: 2025-05-16
+    inicia: 2025-04-22
+    texto: Término do período de cadastramento on-line dos GRUPOS DE ESTUDOS referentes ao Período Letivo 2024.2 pelos professores
+  - data: 2025-05-19
+    tipo: comemorativa
+    texto: Dia do Físico
+  - data: 2025-05-19
+    termina: 2025-05-23
+    texto: Semana da Letras
+  - data: 2025-05-20
+    tipo: comemorativa
+    texto: Dia do Pedagogo
+  - data: 2025-05-21
+    tipo: comemorativa
+    texto: Dia do Profissional de Letras
+  - data: 2025-05-21
+    termina: 2025-05-23
+    texto: Semana da Enfermagem
+  - data: 2025-05-26
+    termina: 2025-05-30
+    texto: Período de divulgação do RESULTADO das solicitações de APROVEITAMENTO DE ESTUDOS para o Período Letivo 2025.1 pelas Coordenações de Cursos à PROGRAD
+  - data: 2025-05-26
+    termina: 2025-05-31
+    texto: Solicitação de OUTORGA DE GRAU em período especial referente ao Período Letivo 2024.2
+  - data: 2025-05-29
+    tipo: comemorativa
+    texto: Dia do Geógrafo
+  - data: 2025-06-02
+    termina: 2025-06-06
+    texto: Solicitação de análise das ATIVIDADES COMPLEMENTARES referente ao Período Letivo 2025.1 pelos alunos às Coordenações de Cursos
+  - data: 2025-06-02
+    termina: 2025-06-06
+    texto: Solicitação de ABREVIAÇÃO DE DURAÇÃO DE CURSO referente ao Período Letivo 2025.1 pelos alunos à PROGRAD
+  - data: 2025-06-09
+    termina: 2025-06-13
+    texto: Análise das solicitações de ABREVIAÇÃO DE DURAÇÃO DE CURSO referente ao Período Letivo 2025.1 pela PROGRAD
+  - data: 2025-06-16
+    termina: 2025-06-20
+    texto: Período de TRANCAMENTO DE DISCIPLINAS do Período Letivo 2025.1
+  - data: 2025-06-16
+    termina: 2025-06-18
+    texto: Semana da Química
+  - data: 2025-06-18
+    tipo: comemorativa
+    texto: Dia do Químico
+  - data: 2025-06-19
+    tipo: feriado
+    texto: FERIADO NACIONAL – Corpus Christi
+  - data: 2025-06-25
+    texto: Último dia para cadastramento no PLANO DE TRABALHO DOCENTE (PTD) das atividades que têm impacto sobre a carga horária do docente no Período Letivo 2025.2
+  - data: 2025-06-27
+    texto: RESULTADO das solicitações de OUTORGA DE GRAU em período especial referente ao Período Letivo 2024.2
+  - data: 2025-06-30
+    termina: 2025-07-25
+    texto: Início do cadastramento da OFERTA do Período Letivo 2025.2 pelas Coordenações dos Cursos
+  - data: 2025-06-01
+    termina: 2025-06-04
+    texto: Divulgação do RESULTADO das solicitações de ABREVIAÇÃO DE DURAÇÃO DE CURSO referente ao Período Letivo 2025.1 pelas Coordenações dos Cursos à PROGRAD.
+  - data: 2025-06-03
+    texto: SOLENIDADE DE OUTORGA DE GRAU em período especial referente ao Período Letivo 2024.2
+  - data: 2025-06-05
+    tipo: feriado
+    localidade: Sobral
+    texto: FERIADO MUNICIPAL EM SOBRAL – Aniversário da cidade
+  - data: 2025-06-07
+    termina: 2025-06-11
+    texto: Entrega dos resultados das validações das ATIVIDADES COMPLEMENTARES pelas Coordenações dos Cursos à PROGRAD referente ao Período Letivo 2025.1
+  - data: 2025-06-07
+    termina: 2025-06-11
+    texto: Congresso Estatuinte
+  - data: 2025-06-14
+    termina: 2025-08-23
+    texto: Início do cadastramento on-line, pelos professores, das NOTAS do Período Letivo 2025.1
