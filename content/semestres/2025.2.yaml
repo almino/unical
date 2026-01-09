@@ -1,0 +1,43 @@
+semestre: 2025.2
+ini: 2024-04-22
+fim: 2025-02-24
+dias-letivos: 103
+meses-letivos:
+  - mes: 2025-04
+    dias-letivos: 8
+    nome: abril de 2025
+  - mes: 2025-05
+    dias-letivos: 26
+    nome: maio de 2025
+eventos:
+  - data: 2025-04-22
+    termina: 2025-08-19
+    texto: Início do cadastramento on-line das comprovações das ATIVIDADES COMPLEMENTARES pelos alunos
+  - data: 2025-04-22
+    termina: 2025-05-16
+    texto: Início do cadastramento on-line dos GRUPOS DE ESTUDOS referentes ao Período Letivo 2025.1 pelos professores
+  - data: 2025-04-22
+    termina: 2025-05-10
+    texto: Início do cadastramento on-line dos MONITORES referentes ao Período Letivo 2025.1 pelos professores
+  - data: 2025-04-23
+    termina: 2025-04-26
+    texto: II Semana de Integração do Curso de Pedagogia – Campus Acaraú
+  - data: 2025-04-28
+    termina: 2025-05-02
+    texto: Solicitação de APROVEITAMENTO DE ESTUDOS para o Período Letivo 2025.1, pelos alunos às Coordenadorias de Cursos
+  - data: 2025-04-28
+    termina: 2025-05-02
+    texto: REAJUSTE DE MATRÍCULA on-line para o Período Letivo
+  - data: 2025-04-30
+    texto: MATRÍCULA DE RETARDATÁRIOS on-line para o Período Letivo 2025.1
+  - data: 2025-05-01
+    tipo: feriado
+    texto: Dia do Trabalhador
+  - data: 2025-05-01
+    texto: I Corrida da Associação Atlética da UVA
+  - data: 2025-05-03
+    tipo: comemorativo
+    texto: Dia do Cientista Político
+  - data: 2025-05-06
+    tipo: comemorativo
+    texto: Dia Nacional da Matemática
