@@ -1,2 +1,9 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+@theme {
+  /* https://tailwindcss.com/docs/font-family#customizing-your-theme */
+  --font-mono: 'Fira Mono', ui-monospace, monospace;
+  --font-sans: 'Fira Sans', system-ui, sans-serif;
+  --font-serif: 'Roboto Slab', ui-serif, serif;
+}
