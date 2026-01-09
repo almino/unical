@@ -1,13 +1,13 @@
 semestre: 2025.2
 ini: 2024-04-22
 fim: 2025-02-24
-dias-letivos: 103
-meses-letivos:
+dias_letivos: 103
+meses_letivos:
   - mes: 2025-04
-    dias-letivos: 8
+    dias_letivos: 8
     nome: abril de 2025
   - mes: 2025-05
-    dias-letivos: 26
+    dias_letivos: 26
     nome: maio de 2025
 eventos:
   - data: 2025-04-22
