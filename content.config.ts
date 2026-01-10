@@ -22,13 +22,11 @@ export default defineContentConfig({
             data: z.string(),
             inicia: z.date().optional(),
             termina: z.date().optional(),
-            tipo: z
-              .enum([
-                "comemorativa",
-                "evento",
-                "feriado",
-              ])
-              .default("evento"),
+            tipo: z.enum([
+              "comemorativa",
+              "evento",
+              "feriado",
+            ]),
             texto: z.string(),
             icone: z.string().optional(),
           })

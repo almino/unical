@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import { DateTime, Settings } from "luxon";
+import Mes from "~/components/Semestre/Mes.vue";
 
 Settings.defaultLocale = "pt-BR";
 
@@ -88,41 +89,12 @@ const eventos = computed(() => {
   >
     <h2>Ano de {{ ano }}</h2>
 
-    <div
+    <Mes
       v-for="(dias, mes) in meses"
       :key="`${ano}-${mes}`"
-      class="mes"
-    >
-      <h3>
-        {{ mes }}
-      </h3>
-
-      <div
-        v-for="(eventosLista, dia) in dias"
-        :key="`${ano}-${mes}-${dia}`"
-        class="dia"
-      >
-        <h4>
-          {{ dia }} de
-          {{ mes }}
-        </h4>
-
-        <div
-          v-for="evento in eventosLista"
-          :key="evento.key"
-          class="evento"
-        >
-          <UIcon
-            v-if="evento.icone"
-            :name="evento.icone"
-          />
-          <span>{{ evento.texto }}</span>
-          <span>{{ evento.tipo }}</span>
-          <span>{{
-            evento.semestre.semestre
-          }}</span>
-        </div>
-      </div>
-    </div>
+      :ano="ano"
+      :mes="mes"
+      :dias="dias"
+    />
   </div>
 </template>
