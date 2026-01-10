@@ -1,7 +1,12 @@
+<script setup lang="ts">
+import Footer from "~/components/Footer.vue";
+import Header from "~/components/Header.vue";
+</script>
+
 <template>
   <NuxtRouteAnnouncer />
   <UApp>
-    <UHeader />
+    <Header />
     <UMain>
       <NuxtLayout>
         <UContainer class="py-2 sm:py-4 lg:py-6">
@@ -9,17 +14,6 @@
         </UContainer>
       </NuxtLayout>
     </UMain>
-    <UFooter>
-      <template #default>
-        Feito por <UButton
-          icon="i-simple-icons-github"
-          color="neutral"
-          variant="ghost"
-          to="https://github.com/almino/unical"
-          target="_blank"
-          aria-label="GitHub"
-        /> Almino Melo
-      </template>
-    </UFooter>
+    <Footer />
   </UApp>
 </template>
