@@ -43,11 +43,33 @@ const localidade = computed(() => {
 const texto = computed(() => {
   return props.evento.texto || "Texto ausente";
 });
+
+const klass = computed(() => {
+  let klasses = [
+    "py-2",
+    "sm:py-3",
+    "lg:py-4",
+    "px-2",
+    "sm:px-4",
+    "lg:px-6",
+    "mb-4",
+    "rounded-sm",
+    "border",
+    "border-muted",
+  ];
+
+  if (is_past.value) {
+    // klasses.push("bg-neutral-100/50");
+    klasses.push("bg-elevated");
+  }
+
+  return klasses;
+});
 </script>
 
 <template>
   <div
-    class="py-2 sm:py-3 lg:py-4 px-2 sm:px-4 lg:px-6 mb-4 rounded-sm border border-muted"
+    :class="klass"
     vocab="http://schema.org/"
     typeof="Event"
   >
