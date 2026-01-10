@@ -4,16 +4,16 @@ const appConfig = useAppConfig();
 
 <template>
   <UHeader mode="drawer">
-    <template #title>{{
-      appConfig.title
-    }}</template>
+    <template #title>
+      <div class="flex gap-2 items-baseline">
+        <span>{{ appConfig.title }}</span>
+        <span class="inline text-xs text-muted font-thin">{{ appConfig.subtitle }}</span>
+      </div>
+    </template>
     <template #right>
-      <UColorModeButton />
+      <!-- <UColorModeButton /> -->
 
-      <UTooltip
-        text="Abrir GitHub"
-        :kbds="['meta', 'G']"
-      >
+      <UTooltip text="Abrir GitHub" :kbds="['meta', 'G']">
         <UButton
           color="neutral"
           variant="ghost"
