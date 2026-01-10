@@ -14,4 +14,8 @@
   "vue.autoInsert.dotValue": true,
   "vue.format.script.initialIndent": true,
   "vue.format.style.initialIndent": false,
+  "editor.rulers": [
+    80,
+  ],
+  "prettier.printWidth": 80,
 }
