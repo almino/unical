@@ -55,7 +55,9 @@ const texto = computed(() => {
     <div class="group relative flex flex-1 gap-3">
       <div class="relative flex items-end gap-1.5 flex-col">
         <Icone :event="props.evento" />
-        <ExtraEsquerdo color="neutral"
+        <ExtraEsquerdo
+          v-if="is_past"
+          color="neutral"
           icon="streamline:interface-time-rewind-back-return-clock-timer-countdown"
           >Passado</ExtraEsquerdo
         >
