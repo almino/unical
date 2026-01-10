@@ -85,7 +85,7 @@ const eventos = computed(() => {
   <div
     v-for="(meses, ano) in eventos"
     :key="ano"
-    class="ano"
+    class="ano mx-auto max-w-xl"
   >
     <h2>Ano de {{ ano }}</h2>
 
