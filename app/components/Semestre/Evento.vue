@@ -4,6 +4,7 @@ import Agente from "~/components/Semestre/Agente.vue";
 import Data from "~/components/Semestre/Data.vue";
 import Icone from "./Icone.vue";
 import Localidade from "./Localidade.vue";
+import ExtraEsquerdo from "./ExtraEsquerdo.vue";
 
 Settings.defaultLocale = "pt-BR";
 
@@ -23,35 +24,16 @@ const dates = computed(() => {
 
   for (let term of ["inicia", "termina"]) {
     if (props.evento.hasOwnProperty(term)) {
-      result[term] = DateTime.fromISO(
-        props.evento[term]
-      );
+      result[term] = DateTime.fromISO(props.evento[term]);
     }
   }
 
   return result;
 });
 
-const inicia = computed(() => {
-  if (props.evento.hasOwnProperty("inicia")) {
-    return DateTime.fromISO(
-      props.evento.inicia
-    ).toLocaleString(DateTime.DATE_SHORT);
-  }
-  return "Sem início";
-});
-
-const termina = computed(() => {
-  if (props.evento.hasOwnProperty("termina")) {
-    return DateTime.fromISO(
-      props.evento.termina
-    ).toLocaleString(DateTime.DATE_SHORT);
-  }
-  return "Sem término";
-});
-
-const tipo = computed(() => {
-  return props.evento.tipo || "evento";
+const is_past = computed(() => {
+  const now = DateTime.now();
+  return date.value < now;
 });
 
 const localidade = computed(() => {
@@ -71,10 +53,12 @@ const texto = computed(() => {
   >
     <Data class="hidden" :date="date" />
     <div class="group relative flex flex-1 gap-3">
-      <div
-        class="relative flex items-end gap-1.5 flex-col"
-      >
+      <div class="relative flex items-end gap-1.5 flex-col">
         <Icone :event="props.evento" />
+        <ExtraEsquerdo color="neutral"
+          icon="streamline:interface-time-rewind-back-return-clock-timer-countdown"
+          >Passado</ExtraEsquerdo
+        >
         <Localidade :localidade="localidade" />
       </div>
       <div class="w-full pb-6.5">
