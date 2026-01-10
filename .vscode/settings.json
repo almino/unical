@@ -6,8 +6,12 @@
   "editor.quickSuggestions": {
     "strings": "on"
   },
+  "nixEnvSelector.nixFile": "${workspaceFolder}/shell.nix",
   "tailwindCSS.classAttributes": ["class", "ui"],
   "tailwindCSS.experimental.classRegex": [
     ["ui:\\s*{([^)]*)\\s*}", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
-  ]
+  ],
+  "vue.autoInsert.dotValue": true,
+  "vue.format.script.initialIndent": true,
+  "vue.format.style.initialIndent": false,
 }
