@@ -53,7 +53,7 @@ const tipo = computed(() => {
 });
 
 const localidade = computed(() => {
-  return props.evento.localidade || "todas";
+  return props.evento.localidade || "";
 });
 
 const ator = computed(() => {

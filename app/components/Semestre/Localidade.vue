@@ -6,20 +6,25 @@ Settings.defaultLocale = "pt-BR";
 const props = defineProps({
   localidade: {
     type: String,
-    required: true,
+    required: false,
   },
 });
 </script>
 
 <template>
-  <p property="location" typeof="PostalAddress">
-    <span property="addressLocality">{{
-      localidade
-    }}</span>
-    <span class="display-hidden"
-      >, <span property="addressRegion"
-        >Ceará</span
-      ></span
+  <p
+    property="location"
+    typeof="PostalAddress"
+    v-if="props.localidade"
+  >
+    <UBadge
+      property="addressLocality"
+      >
+      <UIcon name="streamline:travel-map-location-pin-navigation-map-maps-pin-gps-location" />
+      {{ props.localidade }}</UBadge
     >
+      <span class="hidden" property="addressRegion"
+        >Ceará</span
+      >
   </p>
 </template>
