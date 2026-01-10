@@ -4,6 +4,10 @@
 @source "../../../content/**/*";
 
 @theme {
+  --color-comemorativa: var(--color-sky-200);
+  --color-evento: var(--color-neutral-200);
+  --color-feriado: var(--color-amber-200);
+
   /* https://tailwindcss.com/docs/font-family#customizing-your-theme */
   --font-mono: 'Fira Mono', ui-monospace, monospace;
   --font-sans: 'Fira Sans', system-ui, sans-serif;

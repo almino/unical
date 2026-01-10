@@ -1,6 +1,7 @@
 <script setup>
 import { DateTime, Settings } from "luxon";
 import Data from "~/components/Semestre/Data.vue";
+import Icone from "./Icone.vue";
 import Localidade from "./Localidade.vue";
 
 Settings.defaultLocale = "pt-BR";
@@ -66,15 +67,26 @@ const texto = computed(() => {
 </script>
 
 <template>
-  <div vocab="http://schema.org/" typeof="Event">
-    <h5 property="about">{{ texto }}</h5>
-    <Data :data="evento.inicia" />
-    <Data
-      :data="evento.termina"
-      property="endDate"
-    />
-    <p>{{ tipo }}</p>
-    <Localidade :localidade="localidade" />
-    <p>{{ ator }}</p>
+  <div
+    class="py-2 sm:py-3 lg:py-4 px-2 sm:px-4 lg:px-6 mb-4 rounded-sm border border-muted"
+    vocab="http://schema.org/"
+    typeof="Event"
+  >
+    <Data class="hidden" :date="date" />
+    <div class="group relative flex flex-1 gap-3">
+      <div class="relative flex items-end gap-1.5 flex-col">
+        <Icone :event="props.evento" />
+        <Localidade :localidade="localidade" />
+      </div>
+      <div class="w-full pb-6.5">
+        <h5 class="font-bold" property="about">{{ texto }}</h5>
+        <Data :date="evento.inicia" />
+        <Data
+          :date="evento.termina"
+          property="endDate"
+        />
+        <p>{{ ator }}</p>
+      </div>
+    </div>
   </div>
 </template>

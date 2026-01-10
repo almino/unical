@@ -4,25 +4,43 @@ import { DateTime, Settings } from "luxon";
 Settings.defaultLocale = "pt-BR";
 
 const props = defineProps({
+  date: {
+    type: [String, DateTime],
+    required: true,
+  },
+  format: {
+    type: String,
+    required: false,
+  },
+  localeString: {
+    type: String,
+    required: false,
+    default: "DATE_SHORT",
+  },
   property: {
     type: String,
     required: false,
     default: "startDate",
   },
-  data: {
-    type: String,
-    required: true,
-  },
 });
 
 const date = computed(() => {
-  return DateTime.fromISO(props.data);
+  return DateTime.fromISO(props.date);
 });
 
 const human = computed(() => {
-  return date.value.toLocaleString(
-    DateTime.DATE_SHORT
-  );
+  if (!props.format) {
+    if (!props.localeString.startsWith("DATE")) {
+      props.localeString =
+        "DATE_" + props.localeString;
+    }
+
+    return date.value.toLocaleString(
+      DateTime[props.localeString.toUpperCase()]
+    );
+  }
+
+  return date.value.toFormat(props.format);
 });
 
 const content = computed(() => {
@@ -31,7 +49,7 @@ const content = computed(() => {
 </script>
 
 <template>
-  <p :property="property" :content="data">
+  <time :datetime="content" :property="property" :content="content">
     {{ human }}
-  </p>
+  </time>
 </template>

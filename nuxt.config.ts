@@ -10,4 +10,20 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxt/a11y",
   ],
+  ui: {
+    theme: {
+      colors: [
+        "primary",
+        "secondary",
+        "info",
+        "success",
+        "warning",
+        "error",
+        /* Minhas cores */
+        "comemorativa",
+        "evento",
+        "feriado",
+      ],
+    },
+  },
 });
