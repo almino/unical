@@ -24,5 +24,6 @@ const appConfig = useAppConfig();
         />
       </UTooltip>
     </template>
+    <template #toggle>&ZeroWidthSpace;</template>
   </UHeader>
 </template>
