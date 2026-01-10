@@ -84,18 +84,20 @@ const texto = computed(() => {
         <h5 class="font-bold" property="about">
           {{ texto }}
         </h5>
-        <Data
-          :date="evento.inicia"
-          label="Prazo inicial"
-          v-if="evento.inicia"
-        />
-        <Data
-          :date="evento.termina"
-          label="Prazo final"
-          property="endDate"
-          v-if="evento.termina"
-        />
-        <p>{{ ator }}</p>
+        <div class="flex flex-wrap justify-end gap-2 items-end">
+          <Data
+            :date="evento.inicia"
+            label="Prazo inicial"
+            v-if="evento.inicia"
+          />
+          <Data
+            :date="evento.termina"
+            label="Prazo final"
+            property="endDate"
+            v-if="evento.termina"
+          />
+          <p>{{ ator }}</p>
+        </div>
       </div>
     </div>
   </div>

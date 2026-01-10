@@ -70,29 +70,36 @@ const parse_icon = computed(() => {
 });
 
 const klass = computed(() => {
-  let klasses = [];
+  let klasses = ["rounded-sm", 'py-1', 'px-2', "relative", "flex", "items-center", "gap-2"];
+  const opacity = 10;
 
   switch (props.property) {
     case "startDate":
-      klasses.push('bg-primary');
+      klasses.push(`bg-primary/${opacity}`);
       break;
     case "endDate":
-      klasses.push('bg-error');
+      klasses.push(`bg-error/${opacity}`);
       break;
   }
 
-  return klasses.join(' ');
+  return klasses.join(" ");
 });
 </script>
 
 <template>
-  <time :class="klass" slot="name" :datetime="content" :property="property" :content="content">
-    <UUser
-      :name="human"
-      :description="label"
-      :avatar="{
-        icon: parse_icon,
-      }"
-    />
-  </time>
+  <div :class="klass">
+    <UIcon :name="parse_icon" class="w-4 h-4 shrink-0" />
+    <div>
+      <p class="font-medium text-highlighted text-sm">
+        <time
+          slot="name"
+          :datetime="content"
+          :property="property"
+          :content="content"
+          >{{ human }}</time
+        >
+      </p>
+      <p class="text-muted text-xs">{{ label }}</p>
+    </div>
+  </div>
 </template>
