@@ -24,6 +24,10 @@ const icon = computed(() => {
     return "streamline:interface-calendar-download-arrow-calendar-date-day-down-download-month";
   }
 
+  if (props.event.inicia) {
+    return "streamline:interface-calendar-upload-calendar-date-day-month-push-up-arrow-upload";
+  }
+
   switch (props.event.tipo) {
     case "comemorativa":
       return "streamline:star-badge-remix";
