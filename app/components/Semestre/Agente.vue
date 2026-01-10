@@ -5,7 +5,7 @@ const props = defineProps({
   color: {
     type: String,
     required: false,
-    default: "primary",
+    default: "agente",
   },
   icon: {
     type: String,
@@ -42,7 +42,7 @@ const klass = computed(() => {
 </script>
 
 <template>
-  <Extra v-bind="props">
+  <Extra :class="klass" v-bind="props">
     <slot />
   </Extra>
 </template>

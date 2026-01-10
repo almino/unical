@@ -82,6 +82,7 @@ const texto = computed(() => {
           {{ texto }}
         </h5>
         <div class="flex flex-wrap justify-end gap-2 items-end">
+          <Agente v-if="evento.agente">{{ evento.agente }}</Agente>
           <Data
             :date="evento.inicia"
             label="Prazo inicial"
@@ -93,7 +94,6 @@ const texto = computed(() => {
             property="endDate"
             v-if="evento.termina"
           />
-          <Agente v-if="evento.agente">{{ evento.agente }}</Agente>
         </div>
       </div>
     </div>
