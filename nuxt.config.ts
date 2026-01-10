@@ -20,6 +20,7 @@ export default defineNuxtConfig({
         "warning",
         "error",
         /* Minhas cores */
+        "agente",
         "comemorativa",
         "evento",
         "feriado",

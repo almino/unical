@@ -28,6 +28,7 @@ export default defineContentConfig({
               "feriado",
             ]),
             texto: z.string(),
+            agente: z.string().optional(),
             icone: z.string().optional(),
           })
         ),

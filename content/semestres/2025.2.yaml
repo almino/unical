@@ -12,18 +12,22 @@ meses_letivos:
 eventos:
   - data: 2025-04-22
     termina: 2025-08-19
+    agente: Discentes
     texto: Início do cadastramento on-line das comprovações das ATIVIDADES COMPLEMENTARES pelos alunos
   - data: 2025-04-22
     termina: 2025-05-16
+    agente: Docentes
     texto: Início do cadastramento on-line dos GRUPOS DE ESTUDOS referentes ao Período Letivo 2025.1 pelos professores
   - data: 2025-04-22
     termina: 2025-05-10
+    agente: Docentes
     texto: Início do cadastramento on-line dos MONITORES referentes ao Período Letivo 2025.1 pelos professores
   - data: 2025-04-23
     termina: 2025-04-26
     texto: II Semana de Integração do Curso de Pedagogia – Campus Acaraú
   - data: 2025-04-28
     termina: 2025-05-02
+    agente: Discentes
     texto: Solicitação de APROVEITAMENTO DE ESTUDOS para o Período Letivo 2025.1, pelos alunos às Coordenadorias de Cursos
   - data: 2025-04-28
     termina: 2025-05-02

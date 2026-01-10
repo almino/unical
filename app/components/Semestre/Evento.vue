@@ -1,5 +1,6 @@
 <script setup>
 import { DateTime, Settings } from "luxon";
+import Agente from "~/components/Semestre/Agente.vue";
 import Data from "~/components/Semestre/Data.vue";
 import Icone from "./Icone.vue";
 import Localidade from "./Localidade.vue";
@@ -57,10 +58,6 @@ const localidade = computed(() => {
   return props.evento.localidade || "";
 });
 
-const ator = computed(() => {
-  return props.evento.ator || "todes";
-});
-
 const texto = computed(() => {
   return props.evento.texto || "Texto ausente";
 });
@@ -96,7 +93,7 @@ const texto = computed(() => {
             property="endDate"
             v-if="evento.termina"
           />
-          <p>{{ ator }}</p>
+          <Agente v-if="evento.agente">{{ evento.agente }}</Agente>
         </div>
       </div>
     </div>

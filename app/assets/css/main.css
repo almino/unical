@@ -4,6 +4,7 @@
 @source "../../../content/**/*";
 
 @theme {
+  --color-agente: var(--color-sky-200);
   --color-comemorativa: var(--color-sky-200);
   --color-evento: var(--color-neutral-200);
   --color-feriado: var(--color-amber-200);
