@@ -1,5 +1,7 @@
 <script setup>
 import { DateTime, Settings } from "luxon";
+import Data from "~/components/Semestre/Data.vue";
+import Localidade from "./Localidade.vue";
 
 Settings.defaultLocale = "pt-BR";
 
@@ -12,6 +14,20 @@ const props = defineProps({
 
 const date = computed(() => {
   return DateTime.fromISO(props.evento.data);
+});
+
+const dates = computed(() => {
+  let result = {};
+
+  for (let term of ["inicia", "termina"]) {
+    if (props.evento.hasOwnProperty(term)) {
+      result[term] = DateTime.fromISO(
+        props.evento[term]
+      );
+    }
+  }
+
+  return result;
 });
 
 const inicia = computed(() => {
@@ -50,17 +66,15 @@ const texto = computed(() => {
 </script>
 
 <template>
-  <h5>{{ texto }}</h5>
-  <dl>
-    <dt>Inicia</dt>
-    <dd>{{ inicia }}</dd>
-    <dt>Termina</dt>
-    <dd>{{ termina }}</dd>
-    <dt>Tipo</dt>
-    <dd>{{ tipo }}</dd>
-    <dt>Localidade</dt>
-    <dd>{{ localidade }}</dd>
-    <dt>Ator</dt>
-    <dd>{{ ator }}</dd>
-  </dl>
+  <div vocab="http://schema.org/" typeof="Event">
+    <h5 property="about">{{ texto }}</h5>
+    <Data :data="evento.inicia" />
+    <Data
+      :data="evento.termina"
+      property="endDate"
+    />
+    <p>{{ tipo }}</p>
+    <Localidade :localidade="localidade" />
+    <p>{{ ator }}</p>
+  </div>
 </template>
