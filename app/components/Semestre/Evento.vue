@@ -74,16 +74,26 @@ const texto = computed(() => {
   >
     <Data class="hidden" :date="date" />
     <div class="group relative flex flex-1 gap-3">
-      <div class="relative flex items-end gap-1.5 flex-col">
+      <div
+        class="relative flex items-end gap-1.5 flex-col"
+      >
         <Icone :event="props.evento" />
         <Localidade :localidade="localidade" />
       </div>
       <div class="w-full pb-6.5">
-        <h5 class="font-bold" property="about">{{ texto }}</h5>
-        <Data :date="evento.inicia" />
+        <h5 class="font-bold" property="about">
+          {{ texto }}
+        </h5>
+        <Data
+          :date="evento.inicia"
+          label="Prazo inicial"
+          v-if="evento.inicia"
+        />
         <Data
           :date="evento.termina"
+          label="Prazo final"
           property="endDate"
+          v-if="evento.termina"
         />
         <p>{{ ator }}</p>
       </div>
