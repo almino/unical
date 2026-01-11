@@ -1,12 +1,23 @@
 {
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "editor.rulers": [
+    80,
+  ],
   "files.associations": {
     "*.css": "tailwindcss",
     "*.vue.old": "vue"
   },
-  "editor.quickSuggestions": {
-    "strings": "on"
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.venv": true
   },
   "nixEnvSelector.nixFile": "${workspaceFolder}/shell.nix",
+  "prettier.printWidth": 80,
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.defaultInterpreterPath": "./.python/.venv/bin/python",
   "tailwindCSS.classAttributes": ["class", "ui"],
   "tailwindCSS.experimental.classRegex": [
     ["ui:\\s*{([^)]*)\\s*}", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
@@ -14,8 +25,5 @@
   "vue.autoInsert.dotValue": true,
   "vue.format.script.initialIndent": true,
   "vue.format.style.initialIndent": false,
-  "editor.rulers": [
-    80,
-  ],
-  "prettier.printWidth": 80,
+  "python.terminal.activateEnvironment": false
 }

@@ -1,0 +1,24 @@
+[project]
+name = "unical"
+version = "0.1.0"
+description = "Informações úteis para discentes e aspirantes"
+authors = [
+    { name = "Almino Melo", email = "almino.melo@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "pymupdf>=1.26.7",
+    "typer>=0.21.1",
+    "werkzeug>=3.1.5",
+]
+
+[project.scripts]
+unical = "unical:main"
+
+[build-system]
+requires = ["uv_build>=0.9.22,<0.10.0"]
+build-backend = "uv_build"
+
+[tool.ty.environment]
+root = ["./src/unical"]
