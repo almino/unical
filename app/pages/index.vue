@@ -5,7 +5,12 @@ import Mes from "~/components/Semestre/Mes.vue";
 Settings.defaultLocale = "pt-BR";
 
 const { data: semestres } = await useAsyncData("semestres", () => {
-  return queryCollection("semestres").order("semestre", "DESC").all();
+  return queryCollection("semestres")
+    .orWhere((q) =>
+      q.where("fim", ">", DateTime.now().toISO()).where("fim", "IS NULL")
+    )
+    .order("semestre", "DESC")
+    .all();
 });
 
 // Função para agrupar eventos por ano, mês e dia
