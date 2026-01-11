@@ -68,15 +68,14 @@ const klass = computed(() => {
 </script>
 
 <template>
-  <div
-    :class="klass"
-    vocab="http://schema.org/"
-    typeof="Event"
-  >
+  <div :class="klass" vocab="http://schema.org/" typeof="Event">
     <Data class="hidden" :date="date" />
     <div class="group relative flex flex-1 gap-3">
       <div class="relative flex items-end gap-1.5 flex-col">
         <Icone :event="props.evento" />
+        <ExtraEsquerdo color="neutral" icon="streamline:calendar-star-solid" variant="outline">
+          {{ evento.semestre.semestre }}
+        </ExtraEsquerdo>
         <ExtraEsquerdo
           v-if="is_past"
           color="neutral"
