@@ -1,4 +1,4 @@
-semestre: 2026.1
+nome: 2026.1
 nivel: grad
 oficios:
   - RESOLUÇÃO N° 03/2025 – CEPE
@@ -15,6 +15,7 @@ meses_letivos:
 eventos:
 
   - data: 2026-03-16
+    tipo: ini-semestre
     texto: INÍCIO DO SEMESTRE LETIVO 2026.1
 
   - data: 2026-03-19

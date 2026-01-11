@@ -9,7 +9,7 @@ const { data: semestres } = await useAsyncData("semestres", () => {
     .orWhere((q) =>
       q.where("fim", ">", DateTime.now().toISO()).where("fim", "IS NULL")
     )
-    .order("semestre", "DESC")
+    .order("fim", "DESC")
     .all();
 });
 
@@ -19,7 +19,7 @@ const agrupar = (semestres: any[]) => {
 
   semestres.forEach((semestre, index: number) => {
     const infoSemestre = {
-      semestre: semestre.semestre,
+      nome: semestre.nome,
       ini: semestre.ini,
       fim: semestre.fim,
       // ini: DateTime.fromISO(semestre.ini),

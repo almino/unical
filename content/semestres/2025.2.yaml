@@ -1,4 +1,4 @@
-semestre: 2025.2
+nome: 2025.2
 nivel: grad
 oficios:
   - RESOLUÇÃO N° 03/2025 – CEPE
@@ -36,35 +36,44 @@ meses_letivos:
 eventos:
 
   - data: 2025-09-08
+    tipo: ini-semestre
     texto: INÍCIO DO SEMESTRE 2025.2
 
   - data: 2025-09-08
     termina: 2026-02-19
+    agentes: Discentes
     texto: Início do cadastramento on-line das comprovações das ATIVIDADES COMPLEMENTARES pelos alunos.
 
   - data: 2025-09-08
     termina: 2025-10-03
+    agentes: Docentes
     texto: Início do cadastramento on-line dos GRUPOS DE ESTUDOS referentes ao Período Letivo 2025.2 pelos professores.
 
   - data: 2025-09-08
     termina: 2025-10-10
+    agentes: Docentes
     texto: Início do cadastramento on-line dos MONITORES referentes ao Período Letivo 2025.2 pelos professores
 
   - data: 2025-09-09
+    tipo: comemorativa
     texto: Dia do Administrador
 
   - data: 2025-09-15
     termina: 2025-09-19
+    tipo: matrícula
     texto: REAJUSTE DE MATRÍCULA on-line para o Período Letivo 2025.2
 
   - data: 2025-09-17
+    tipo: matrícula
     texto: MATRÍCULA DE RETARDATÁRIOS on-line para o Período Letivo 2025.2
 
   - data: 2025-09-15
     termina: 2025-09-19
+    agentes: Discentes
     texto: Solicitação de APROVEITAMENTO DE ESTUDOS para o Período Letivo 2025.2, pelos alunos às Coordenações de Cursos
 
   - data: 2025-09-22
+    tipo: comemorativa
     texto: Dia do Contador
 
   - data: 2025-09-22
@@ -72,6 +81,7 @@ eventos:
     texto: I Semana de Educação do Curso de Pedagogia
 
   - data: 2025-09-29
+    tipo: feriado
     texto: FERIADO MUNICIPAL (CAMOCIM) – Aniversário da cidade
 
   - data: 2025-10-03
@@ -81,37 +91,45 @@ eventos:
     texto: Término do período de cadastramento on-line dos GRUPOS DE ESTUDOS referentes ao Período Letivo 2025.2 pelos professores
 
   - data: 2025-10-04
+    tipo: feriado
+    localidades:
+      - São Benedito
+      - Camocim
     texto: FERIADO MUNICIPAL (CAMOCIM, SÃO BENEDITO) – Dia de São Francisco
 
   - data: 2025-10-08
     termina: 2025-10-10
-    texto: II Semana de Agronomia da Universidade Estadual Vale do Acaraú (Semagruva) – /Campus / Ibiapaba
+    texto: II Semana de Agronomia da Universidade Estadual Vale do Acaraú (Semagruva) – _Campus_ Ibiapaba
 
   - data: 2025-10-09
     texto: SOLENIDADE DE OUTORGA DE GRAU referente ao Período Letivo 2025.1
 
   - data: 2025-10-12
+    tipo: feriado
     texto: FERIADO NACIONAL – Nossa Senhora Aparecida
 
   - data: 2025-10-13
     termina: 2025-10-17
+    agentes: Coordenações
     texto: Período de divulgação do RESULTADO das solicitações de APROVEITAMENTO DE ESTUDOS para o Período Letivo 2025.2 pelas Coordenações de Cursos à PROGRAD
 
   - data: 2025-10-13
     termina: 2025-10-17
-    texto: Solicitação de OUTORGA DE GRAU em / período especial / referente ao Período Letivo 2025.1.
+    texto: Solicitação de OUTORGA DE GRAU em _período especial_ referente ao Período Letivo 2025.1.
 
   - data: 2025-10-13
     termina: 2025-10-17
     texto: 3⁰ Campeonato entre Centros
 
   - data: 2025-10-14
-    texto: Evento do Dia do professor – /Campus / Acaraú
+    texto: Evento do Dia do professor – _Campus_ Acaraú
 
   - data: 2025-10-15
+    tipo: comemorativa
     texto: Dia do Professor
 
   - data: 2025-10-19
+    tipo: comemorativa
     texto: Dia do Profissional de Informática e de Tecnologia da Informação
 
   - data: 2025-10-20
@@ -120,16 +138,20 @@ eventos:
 
   - data: 2025-10-20
     termina: 2025-10-24
+    agentes: Discentes
     texto: Período de solicitação de análise das ATIVIDADES COMPLEMENTARES referente ao Período Letivo 2025.2 pelos alunos às Coordenações de Cursos
 
   - data: 2025-10-20
     termina: 2025-10-24
+    agentes: Discentes
     texto: Período de solicitação de AFERIÇÃO EXTRAORDINÁRIA DE ESTUDOS referente ao Período Letivo 2025.2 pelos alunos à PROGRAD
 
   - data: 2025-10-23
+    tipo: comemorativa
     texto: Aniversário de 57 anos da UVA
 
   - data: 2025-10-25
+    tipo: comemorativa
     texto: Dia do Engenheiro Civil
 
   - data: 2025-10-27
@@ -137,6 +159,7 @@ eventos:
     texto: Período de análise das solicitações de AFERIÇÃO EXTRAORDINÁRIA DE ESTUDOS referente ao Período Letivo 2025.2 pela PROGRAD
 
   - data: 2025-10-28
+    tipo: feriado
     texto: FERIADO NACIONAL – Dia do Servidor Público
 
   - data: 2025-10-30
@@ -144,22 +167,26 @@ eventos:
     texto: Jornada Gótica
 
   - data: 2025-11-02
+    tipo: feriado
     texto: FERIADO NACIONAL – Dia de Finados
 
   - data: 2025-11-03
     termina: 2025-11-07
+    tipo: matrícula
     texto: Período de TRANCAMENTO DE DISCIPLINAS do Período Letivo 2025.2
 
   - data: 2025-11-12
     texto: Último dia para cadastramento no PTD das atividades que têm impacto sobre a carga horária do docente no Período Letivo 2026.1.
 
   - data: 2025-11-14
-    texto: RESULTADO das solicitações de OUTORGA DE GRAU em / período especial / referente ao Período Letivo 2025.1.
+    texto: RESULTADO das solicitações de OUTORGA DE GRAU em _período especial_ referente ao Período Letivo 2025.1.
 
   - data: 2025-11-15
+    tipo: feriado
     texto: FERIADO NACIONAL – Proclamação da República
 
   - data: 2025-11-17
+    agentes: Coordenações
     texto: Início do período de cadastro da OFERTA do Período Letivo 2026.1 pelas Coordenações dos Cursos. (Até 12/12/2025)
 
   - data: 2025-11-17
@@ -175,19 +202,23 @@ eventos:
     texto: II Workshop da Associação Atlética da UVA
 
   - data: 2025-11-19
-    texto: SOLENIDADE DE OUTORGA DE GRAU em / período especial / referente ao Período Letivo 2025.1
+    texto: SOLENIDADE DE OUTORGA DE GRAU em _período especial_ referente ao Período Letivo 2025.1
 
   - data: 2025-11-20
+    tipo: feriado
     texto: FERIADO NACIONAL – Dia Nacional de Zumbi e da Consciência Negra
 
   - data: 2025-11-24
     termina: 2025-11-28
+    agentes: Coordenações
     texto: Entrega dos resultados das validações das ATIVIDADES COMPLEMENTARES pelas Coordenações dos Cursos à PROGRAD referente ao Período Letivo 2025.2
 
   - data: 2026-01-25
+    tipo: feriado
     texto: FERIADO MUNICIPAL (SÃO BENEDITO) – Emancipação política
 
   - data: 2025-12-01
+    agentes: Docentes
     texto: Início do cadastramento on-line, pelos professores, das notas do Período Letivo 2025.2
 
   - data: 2025-12-05
@@ -197,9 +228,15 @@ eventos:
     texto: Divulgação do Edital do PROCESSO SELETIVO ESPECIAL interno para o Período Letivo 2026.2
 
   - data: 2025-12-08
+    tipo: feriado
+    localidades:
+      - Sobral
+      - Acaraú
+      - São Benedito
     texto: FERIADO MUNICIPAL (Sobral, Acaraú, São Benedito) – Imaculada Conceição *
 
   - data: 2025-12-12
+    agentes: Coordenações
     texto: Término do cadastramento da OFERTA para o Período Letivo 2025.2 pelas Coordenações dos Cursos.
 
   - data: 2025-12-15
@@ -207,10 +244,12 @@ eventos:
 
   - data: 2026-01-22
     termina: 2026-01-31
+    tipo: feriado
     texto: RECESSO NATALINO
 
   - data: 2026-01-02
     termina: 2026-01-31
+    tipo: feriado
     texto: FÉRIAS COLETIVAS DOS DOCENTES
 
   - data: 2026-02-02
@@ -226,15 +265,19 @@ eventos:
     texto: RECESSO DE CARNAVAL
 
   - data: 2026-02-24
+    agentes: Discentes
     texto: Fim do cadastramento on-line das comprovações das ATIVIDADES COMPLEMENTARES pelos alunos
 
   - data: 2026-02-24
+    tipo: fim-semestre
     texto: TÉRMINO DO PERÍODO LETIVO 2025.2 (103 dias letivos)
 
   - data: 2026-02-28
+    agentes: Docentes
     texto: Término do cadastramento on-line das NOTAS do Período Letivo 2025.2
 
   - data: 2026-03-07
+    agentes: Coordenações
     texto: Término do prazo de entrega dos MAPAS DE NOTAS do Período Letivo 2025.2, pelas Coordenações. Envio via e-mail para o DEG.
 
   - data: 2026-03-07
@@ -247,14 +290,18 @@ eventos:
     texto: Início do cadastramento on-line das atividades no PLANO DE TRABALHO DOCENTE (PTD) referentes ao Período Letivo 2026.1
 
   - data: 2026-03-09
+    tipo: matrícula
     texto: MATRÍCULA on-line de ALUNOS VETERANOS dos cursos do CCAB e CCET para o Período Letivo 2026.1
 
   - data: 2026-03-10
+    tipo: matrícula
     texto: MATRÍCULA on-line de ALUNOS VETERANOS dos cursos do CCH e CCSA para o Período Letivo 2026.1
 
   - data: 2026-03-11
+    tipo: matrícula
     texto: MATRÍCULA on-line de ALUNOS VETERANOS dos cursos do CENFLE e CCS para o Período Letivo 2026.1
 
   - data: 2026-03-12
     termina: 2026-03-13
+    tipo: matrícula
     texto: MATRÍCULA on-line de ALUNOS VETERANOS de TODOS os Centros de Ensino (CCAB, CCET, CCH, CCSA, CENFLE e CCS) para o Período Letivo 2026.1

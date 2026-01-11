@@ -1,8 +1,4 @@
 <script setup>
-import { DateTime, Settings } from "luxon";
-
-Settings.defaultLocale = "pt-BR";
-
 const props = defineProps({
   localidade: {
     type: String,

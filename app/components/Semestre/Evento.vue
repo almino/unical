@@ -61,6 +61,8 @@ const klass = computed(() => {
   if (is_past.value) {
     // klasses.push("bg-neutral-100/50");
     klasses.push("bg-elevated");
+  } else if (props.evento.tipo == "ini-semestre") {
+    klasses.push("bg-primary/10")
   }
 
   return klasses;
@@ -74,7 +76,7 @@ const klass = computed(() => {
       <div class="relative flex items-end gap-1.5 flex-col">
         <Icone :event="props.evento" />
         <ExtraEsquerdo color="neutral" icon="streamline:calendar-star-solid" variant="outline">
-          {{ evento.semestre.semestre }}
+          {{ evento.semestre.nome }}
         </ExtraEsquerdo>
         <ExtraEsquerdo
           v-if="is_past"
@@ -82,7 +84,7 @@ const klass = computed(() => {
           icon="streamline:interface-time-rewind-back-return-clock-timer-countdown"
           >Passado</ExtraEsquerdo
         >
-        <Localidade :localidade="localidade" />
+        <Localidade v-for="(l, i) in localidades" :localidade="l" :key="i" />
       </div>
       <div class="w-full pb-6.5">
         <h5 class="font-bold" property="about">

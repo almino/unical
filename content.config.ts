@@ -14,7 +14,8 @@ export default defineContentConfig({
       type: "data",
       source: "semestres/**.{yaml,yml}",
       schema: z.object({
-        semestre: z.string(),
+        nome: z.string(),
+        nome_longo: z.string(),
         nivel: z.enum(["grad", "pos"]),
         url: z.string().url().optional(),
         oficios: z.array(z.string()).optional(),
@@ -23,18 +24,22 @@ export default defineContentConfig({
         fim: z.date().optional(),
         eventos: z.array(
           z.object({
+            agente: z.string().optional(),
             data: z.string(),
+            icone: z.string().optional(),
             inicia: z.date().optional(),
+            localidades: z.array(z.string()).optional(),
             termina: z.date().optional(),
+            texto: z.string(),
             tipo: z.enum([
               "comemorativa",
               "evento",
               "feriado",
+              "fim-semestre",
+              "ini-semestre",
+              "matrícula",
             ]),
-            texto: z.string(),
-            agente: z.string().optional(),
-            icone: z.string().optional(),
-          })
+          }),
         ),
       }),
     }),
