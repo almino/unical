@@ -1,0 +1,26 @@
+semestre: 2026.1
+nivel: grad
+oficios:
+  - RESOLUÇÃO N° 03/2025 – CEPE
+ini: 2024-04-22
+
+
+meses_letivos:
+
+  - mes: 2026-03
+    dias_letivos: 7
+    nome: março de 2026
+
+
+eventos:
+
+  - data: 2026-03-16
+    texto: INÍCIO DO SEMESTRE LETIVO 2026.1
+
+  - data: 2026-03-19
+    tipo: feriado
+    texto: FERIADO ESTADUAL – São José
+
+  - data: 2026-03-25
+    tipo: feriado
+    texto: FERIADO ESTADUAL – Data Magna

@@ -15,8 +15,12 @@ export default defineContentConfig({
       source: "semestres/**.{yaml,yml}",
       schema: z.object({
         semestre: z.string(),
+        nivel: z.enum(["grad", "pos"]),
+        url: z.string().url().optional(),
+        oficios: z.array(z.string()).optional(),
+        dias_letivos: z.number().optional(),
         ini: z.date(),
-        fim: z.date(),
+        fim: z.date().optional(),
         eventos: z.array(
           z.object({
             data: z.string(),

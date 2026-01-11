@@ -1,0 +1,226 @@
+semestre: 2025.1
+nivel: grad
+oficios:
+  - RESOLUÇÃO N° 03/2025 – CEPE
+url: https://ww2.uva.ce.gov.br/apps/common/documentos_uva/calendario_5544c166309164db763.pdf
+
+ini: 2025-04-22
+fim: 2025-08-19
+dias_letivos: 103
+
+
+meses_letivos:
+
+  - mes: 2025-04
+    dias_letivos: 8
+    nome: abril de 2025
+  - mes: 2025-05
+    dias_letivos: 26
+    nome: maio de 2025
+  - mes: 2025-06
+    dias_letivos: 24
+    nome: junho de 2025
+  - mes: 2025-07
+    dias_letivos: 26
+    nome: julho de 2025
+  - mes: 2025-08
+    dias_letivos: 16
+    nome: agosto de 2025
+
+
+eventos:
+
+  - data: 2025-04-22
+    texto: Início do período letivo 2025.1
+
+  - data: 2025-04-22
+    termina: 2025-08-19
+    texto: Início do cadastramento on-line das comprovações das ATIVIDADES COMPLEMENTARES pelos alunos
+
+  - data: 2025-04-22
+    termina: 2025-05-16
+    texto: Início do cadastramento on-line dos GRUPOS DE ESTUDOS referentes ao Período Letivo 2025.1 pelos professores
+
+  - data: 2025-04-22
+    termina: 2025-05-10
+    texto: Início do cadastramento on-line dos MONITORES referentes ao Período Letivo 2025.1 pelos professores
+
+  - data: 2025-04-23
+    termina: 2025-04-26
+    texto: II Semana de Integração do Curso de Pedagogia – /Campus / Acaraú
+
+  - data: 2025-04-28
+    termina: 2025-05-02
+    texto: Solicitação de APROVEITAMENTO DE ESTUDOS para o Período Letivo 2025.1, pelos alunos às Coordenadorias de Cursos
+
+  - data: 2025-04-28
+    termina: 2025-05-02
+    texto: REAJUSTE DE MATRÍCULA on-line para o Período Letivo 2025.1
+
+  - data: 2025-04-30
+    texto: MATRÍCULA DE RETARDATÁRIOS on-line para o Período
+
+  - data: 2025-05-01
+    texto: FERIADO NACIONAL – Dia do Trabalhador
+
+  - data: 2025-05-01
+    texto: I Corrida da Associação Atlética da UVA
+
+  - data: 2025-05-03
+    texto: Dia do Cientista Político
+
+  - data: 2025-05-06
+    texto: Dia Nacional da Matemática
+
+  - data: 2025-05-06
+    termina: 2025-05-08
+    texto: SOLENIDADE DE *OUTORGA DE GRAU * referente ao Período Letivo 2024.2
+
+  - data: 2025-05-07
+    termina: 2025-05-09
+    texto: XIX Semana de Filosofia
+
+  - data: 2025-05-12
+    texto: Dia do Enfermeiro
+
+  - data: 2025-05-13
+    texto: Dia do Zootecnista
+
+  - data: 2025-05-16
+    texto: RESULTADO das solicitações de OUTORGA DE GRAU referente ao Período Letivo 2024.2
+
+  - data: 2025-05-16
+    texto: Término do período de cadastramento on-line dos GRUPOS DE ESTUDOS referentes ao Período Letivo 2024.2 pelos professores
+
+  - data: 2025-05-19
+    texto: Dia do Físico
+
+  - data: 2025-05-19
+    termina: 2025-05-23
+    texto: Semana de Letras
+
+  - data: 2025-05-20
+    texto: Dia do Pedagogo
+
+  - data: 2025-05-21
+    texto: Dia do Profissional de Letras
+
+  - data: 2025-05-21
+    termina: 2025-05-23
+    texto: Semana de Enfermagem
+
+  - data: 2025-05-26 a 30
+    texto: Período de divulgação do RESULTADO das solicitações de APROVEITAMENTO DE ESTUDOS para o Período Letivo 2025.1 pelas Coordenações de Cursos à PROGRAD
+
+  - data: 2025-05-26 a 31
+    texto: Solicitação de OUTORGA DE GRAU em _período especial_ referente ao Período Letivo 2024.2
+
+  - data: 2025-05-29
+    texto: Dia do Geógrafo
+
+  - data: 2025-06-02
+    termina: 2025-06-06
+    texto: Solicitação de análise das ATIVIDADES COMPLEMENTARES referente ao Período Letivo 2025.1 pelos alunos às Coordenações de Cursos
+
+  - data: 2025-06-02
+    termina: 2025-06-06
+    texto: Solicitação de ABREVIAÇÃO DE DURAÇÃO DE CURSO referente ao Período Letivo 2025.1 pelos alunos à PROGRAD
+
+  - data: 2025-06-09
+    termina: 2025-06-13
+    texto: Análise das solicitações de ABREVIAÇÃO DE DURAÇÃO DE CURSO referente ao Período Letivo 2025.1 pela PROGRAD
+
+  - data: 2025-06-16
+    termina: 2025-06-20
+    texto: Período de TRANCAMENTO DE DISCIPLINAS do Período Letivo 2025.1
+
+  - data: 2025-06-16
+    termina: 2025-06-18
+    texto: Semana da Química
+
+  - data: 2025-06-18
+    texto: Dia do Químico
+
+  - data: 2025-06-19
+    texto: FERIADO NACIONAL – Corpus Christi
+
+  - data: 2025-06-25
+    texto: Último dia para cadastramento no PLANO DE TRABALHO DOCENTE (PTD) das atividades que têm impacto sobre a carga horária do docente no Período Letivo 2025.2
+
+  - data: 2025-06-27
+    texto: RESULTADO das solicitações de OUTORGA DE GRAU em _período especial_ referente ao Período Letivo 2024.2
+
+  - data: 2025-06-30
+    termina: 2025-07-25
+    texto: Início do cadastramento da OFERTA do Período Letivo 2025.2 pelas Coordenações dos Cursos
+
+  - data: 2025-07-01
+    termina: 2025-07-04
+    texto: Divulgação do RESULTADO das solicitações de ABREVIAÇÃO DE DURAÇÃO DE CURSO referente ao Período Letivo 2025.1 pelas Coordenações dos Cursos à PROGRAD.
+
+  - data: 2025-07-03
+    texto: SOLENIDADE DE OUTORGA DE GRAU _em período especial_ referente ao Período Letivo 2024.2
+
+  - data: 2025-07-05
+    texto: FERIADO MUNICIPAL EM SOBRAL – Aniversário da cidade
+
+  - data: 2025-07-07
+    termina: 2025-07-11
+    texto: Entrega dos resultados das validações das ATIVIDADES COMPLEMENTARES pelas Coordenações dos Cursos à PROGRAD referente ao Período Letivo 2025.1
+
+  - data: 2025-07-07
+    termina: 2025-07-11
+    texto: Congresso Estatuinte
+
+  - data: 2025-07-14
+    termina: 2025-08-23
+    texto: Início do cadastramento on-line, pelos professores, das NOTAS do Período Letivo 2025.1
+
+  - data: 2025-07-18
+    texto: Divulgação do Edital do PROGRAMA DE MONITORIA para o Período Letivo 2025.2
+
+  - data: 2025-07-18
+    texto: Divulgação do Edital do PROCESSO SELETIVO ESPECIAL interno para o Período Letivo 2025.2
+
+  - data: 2025-07-25
+    texto: Término do cadastramento da OFERTA para o Período Letivo 2025.2 pelas Coordenações dos Cursos
+
+  - data: 2025-07-28
+    termina: 2025-08-15
+    texto: Início da Validação da OFERTA 2025.2 pela PROGRAD
+
+  - data: 2025-07-31
+    texto: FERIADO MUNICIPAL EM ACARAÚ – Aniversário da cidade
+
+  - data: 2025-08-04
+    termina: 2025-08-23
+    texto: Solicitação de OUTORGA DE GRAU referente ao Período Letivo 2025.1
+
+  - data: 2025-08-11
+    texto: Dia do Estudante
+
+  - data: 2025-08-11
+    texto: Dia do Advogado
+
+  - data: 2025-08-11
+    termina: 2025-08-12
+    texto: I Feira de Profissões do _Campus_ da Ibiapaba
+
+  - data: 2025-08-15
+    texto: Término da validação da OFERTA do Período Letivo 2025.2 pela PROGRAD.
+
+  - data: 2025-08-19
+    texto: Fim do cadastramento on-line das comprovações das ATIVIDADES COMPLEMENTARES pelos alunos
+
+  - data: 2025-08-19
+    texto: TÉRMINO DO PERÍODO LETIVO 2025.1 (100 dias letivos)
+
+  - data: 2025-08-20
+    termina: 2025-08-30
+    texto: Período de cadastro dos Relatórios Finais, referente ao Período Letivo 2025.1 no PLANO DE TRABALHO DOCENTE (PTD)
+
+  - data: 2025-08-23
+    texto: Término do cadastramento on-line das NOTAS do Período Letivo 2025.1
+
+  - data: 2025-08-30
+    texto: Término do período de cadastro on-line das atividades no PLANO DE TRABALHO DOCENTE (PTD) referentes ao Período Letivo

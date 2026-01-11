@@ -1,10 +1,14 @@
 {
+  "[yaml]": {
+    "editor.wordWrap": "on"
+  },
+  "[yml]": {
+    "editor.wordWrap": "on"
+  },
   "editor.quickSuggestions": {
     "strings": "on"
   },
-  "editor.rulers": [
-    80,
-  ],
+  "editor.rulers": [80],
   "files.associations": {
     "*.css": "tailwindcss",
     "*.vue.old": "vue"
