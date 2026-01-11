@@ -27,7 +27,7 @@ const date = computed(() => {
   return DateTime.fromObject({
     year: Number(props.ano),
     month: Number(props.mes),
-    day: Number(props.dia),
+    day: Number(props.dia) + 1,
   });
 });
 
@@ -39,7 +39,6 @@ const date_huge = computed(() => {
 </script>
 
 <template>
-  <!-- <p>{{ dia }}/{{ mes }}/{{ ano }}</p> -->
   <h4>{{ date_huge }}</h4>
   <ul>
     <li

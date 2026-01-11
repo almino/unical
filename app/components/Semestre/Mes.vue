@@ -11,7 +11,7 @@ const props = defineProps({
     required: true,
   },
   dias: {
-    type: Array,
+    type: Object,
     required: true,
   },
 });
