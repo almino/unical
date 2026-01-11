@@ -255,7 +255,8 @@ eventos:
   - data: 2026-03-11
     texto: MATRÍCULA on-line de ALUNOS VETERANOS dos cursos do CENFLE e CCS para o Período Letivo 2026.1
 
-  - data: 2026-03-12 e 13
+  - data: 2026-03-12
+    termina: 2026-03-13
     texto: MATRÍCULA on-line de ALUNOS VETERANOS de TODOS os Centros de Ensino (CCAB, CCET, CCH, CCSA, CENFLE e CCS) para o Período Letivo 2026.1
 
   - data: 2026-03-16

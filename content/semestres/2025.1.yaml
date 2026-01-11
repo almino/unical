@@ -109,10 +109,12 @@ eventos:
     termina: 2025-05-23
     texto: Semana de Enfermagem
 
-  - data: 2025-05-26 a 30
+  - data: 2025-05-26
+    termina: 2025-05-30
     texto: Período de divulgação do RESULTADO das solicitações de APROVEITAMENTO DE ESTUDOS para o Período Letivo 2025.1 pelas Coordenações de Cursos à PROGRAD
 
-  - data: 2025-05-26 a 31
+  - data: 2025-05-26
+    termina: 2025-05-31
     texto: Solicitação de OUTORGA DE GRAU em _período especial_ referente ao Período Letivo 2024.2
 
   - data: 2025-05-29
