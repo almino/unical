@@ -1,6 +1,12 @@
 /* https://nuxt.com/docs/4.x/api/nuxt-config */
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
+  content: {
+    database: {
+      type: "d1",
+      bindingName: "DB",
+    },
+  },
   css: ["~/assets/css/main.css"],
   devtools: { enabled: true },
   modules: [
@@ -11,7 +17,7 @@ export default defineNuxtConfig({
     "@nuxt/a11y",
   ],
   nitro: {
-    preset: 'cloudflare_pages',
+    preset: "cloudflare_pages",
   },
   ui: {
     theme: {
