@@ -41,17 +41,17 @@ eventos:
 
   - data: 2025-09-08
     termina: 2026-02-19
-    agentes: Discentes
+    agente: Discentes
     texto: Início do cadastramento on-line das comprovações das ATIVIDADES COMPLEMENTARES pelos alunos.
 
   - data: 2025-09-08
     termina: 2025-10-03
-    agentes: Docentes
+    agente: Docentes
     texto: Início do cadastramento on-line dos GRUPOS DE ESTUDOS referentes ao Período Letivo 2025.2 pelos professores.
 
   - data: 2025-09-08
     termina: 2025-10-10
-    agentes: Docentes
+    agente: Docentes
     texto: Início do cadastramento on-line dos MONITORES referentes ao Período Letivo 2025.2 pelos professores
 
   - data: 2025-09-09
@@ -69,7 +69,7 @@ eventos:
 
   - data: 2025-09-15
     termina: 2025-09-19
-    agentes: Discentes
+    agente: Discentes
     texto: Solicitação de APROVEITAMENTO DE ESTUDOS para o Período Letivo 2025.2, pelos alunos às Coordenações de Cursos
 
   - data: 2025-09-22
@@ -110,7 +110,7 @@ eventos:
 
   - data: 2025-10-13
     termina: 2025-10-17
-    agentes: Coordenações
+    agente: Coordenações
     texto: Período de divulgação do RESULTADO das solicitações de APROVEITAMENTO DE ESTUDOS para o Período Letivo 2025.2 pelas Coordenações de Cursos à PROGRAD
 
   - data: 2025-10-13
@@ -138,12 +138,12 @@ eventos:
 
   - data: 2025-10-20
     termina: 2025-10-24
-    agentes: Discentes
+    agente: Discentes
     texto: Período de solicitação de análise das ATIVIDADES COMPLEMENTARES referente ao Período Letivo 2025.2 pelos alunos às Coordenações de Cursos
 
   - data: 2025-10-20
     termina: 2025-10-24
-    agentes: Discentes
+    agente: Discentes
     texto: Período de solicitação de AFERIÇÃO EXTRAORDINÁRIA DE ESTUDOS referente ao Período Letivo 2025.2 pelos alunos à PROGRAD
 
   - data: 2025-10-23
@@ -186,7 +186,7 @@ eventos:
     texto: FERIADO NACIONAL – Proclamação da República
 
   - data: 2025-11-17
-    agentes: Coordenações
+    agente: Coordenações
     texto: Início do período de cadastro da OFERTA do Período Letivo 2026.1 pelas Coordenações dos Cursos. (Até 12/12/2025)
 
   - data: 2025-11-17
@@ -210,7 +210,7 @@ eventos:
 
   - data: 2025-11-24
     termina: 2025-11-28
-    agentes: Coordenações
+    agente: Coordenações
     texto: Entrega dos resultados das validações das ATIVIDADES COMPLEMENTARES pelas Coordenações dos Cursos à PROGRAD referente ao Período Letivo 2025.2
 
   - data: 2026-01-25
@@ -218,7 +218,7 @@ eventos:
     texto: FERIADO MUNICIPAL (SÃO BENEDITO) – Emancipação política
 
   - data: 2025-12-01
-    agentes: Docentes
+    agente: Docentes
     texto: Início do cadastramento on-line, pelos professores, das notas do Período Letivo 2025.2
 
   - data: 2025-12-05
@@ -236,7 +236,7 @@ eventos:
     texto: FERIADO MUNICIPAL (Sobral, Acaraú, São Benedito) – Imaculada Conceição *
 
   - data: 2025-12-12
-    agentes: Coordenações
+    agente: Coordenações
     texto: Término do cadastramento da OFERTA para o Período Letivo 2025.2 pelas Coordenações dos Cursos.
 
   - data: 2025-12-15
@@ -265,7 +265,7 @@ eventos:
     texto: RECESSO DE CARNAVAL
 
   - data: 2026-02-24
-    agentes: Discentes
+    agente: Discentes
     texto: Fim do cadastramento on-line das comprovações das ATIVIDADES COMPLEMENTARES pelos alunos
 
   - data: 2026-02-24
@@ -273,11 +273,11 @@ eventos:
     texto: TÉRMINO DO PERÍODO LETIVO 2025.2 (103 dias letivos)
 
   - data: 2026-02-28
-    agentes: Docentes
+    agente: Docentes
     texto: Término do cadastramento on-line das NOTAS do Período Letivo 2025.2
 
   - data: 2026-03-07
-    agentes: Coordenações
+    agente: Coordenações
     texto: Término do prazo de entrega dos MAPAS DE NOTAS do Período Letivo 2025.2, pelas Coordenações. Envio via e-mail para o DEG.
 
   - data: 2026-03-07
