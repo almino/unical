@@ -87,9 +87,13 @@ const klass = computed(() => {
         <Localidade v-for="(l, i) in localidades" :localidade="l" :key="i" />
       </div>
       <div class="w-full pb-6.5">
-        <h5 class="font-bold" property="about">
-          {{ texto }}
-        </h5>
+        <MDC
+          class="font-bold"
+          tag="h5"
+          property="about"
+          :value="texto"
+          unwrap="p"
+        />
         <div class="flex flex-wrap justify-end gap-2 items-end">
           <Agente v-if="evento.agente">{{ evento.agente }}</Agente>
           <Data
