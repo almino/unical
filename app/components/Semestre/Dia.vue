@@ -26,7 +26,7 @@ const props = defineProps({
 const date = computed(() => {
   return DateTime.fromObject({
     year: Number(props.ano),
-    month: Number(props.mes),
+    month: Number(props.mes) + 1,
     day: Number(props.dia) + 1,
   });
 });
