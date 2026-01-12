@@ -36,10 +36,14 @@ const date_huge = computed(() => {
     DateTime.DATE_HUGE
   );
 });
+
+const date_iso = computed(() => {
+  return date.value.toISODate();
+});
 </script>
 
 <template>
-  <h4>{{ date_huge }}</h4>
+  <h4 :id="date_iso">{{ date_huge }}</h4>
   <ul>
     <li
       v-for="(evento, index) in eventos"

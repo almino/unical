@@ -1,6 +1,7 @@
 <script setup>
 import { DateTime, Settings } from "luxon";
 import Mes from "~/components/Semestre/Mes.vue";
+import Nav from "~/components/Semestre/Nav.vue";
 
 Settings.defaultLocale = "pt-BR";
 
@@ -122,7 +123,7 @@ const eventos = computed(() => {
 </script>
 
 <template>
-  <h1>{{ today }}</h1>
+  <Nav :hoje="today" />
   <div v-for="(meses, ano) in eventos" :key="ano" class="ano mx-auto max-w-xl">
     <h2>Ano de {{ ano }}</h2>
 
