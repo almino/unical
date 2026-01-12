@@ -1,5 +1,13 @@
 /* https://nuxt.com/docs/4.x/api/nuxt-config */
 export default defineNuxtConfig({
+  app: {
+    head: {
+      title: 'UVA – Calendário universitário',
+      htmlAttrs: {
+        lang: 'pt-BR',
+      },
+    },
+  },
   compatibilityDate: "2024-04-03",
   content: {
     database: {
