@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'UVA – Calendário universitário',
+      title: 'UVA – Cronograma universitário',
       htmlAttrs: {
         lang: 'pt-BR',
       },
