@@ -31,11 +31,6 @@ const dates = computed(() => {
   return result;
 });
 
-const is_past = computed(() => {
-  const now = DateTime.now();
-  return date.value < now;
-});
-
 const localidades = computed(() => {
   return props.evento.localidades || [];
 });
@@ -59,7 +54,7 @@ const klass = computed(() => {
     "border",
   ];
 
-  if (is_past.value) {
+  if (props.evento.past) {
     // klasses.push("bg-neutral-100/50");
     bg_color = "elevated";
     border_color = "neutral";
@@ -90,7 +85,7 @@ const klass = computed(() => {
           {{ evento.semestre.nome }}
         </ExtraEsquerdo>
         <ExtraEsquerdo
-          v-if="is_past"
+          v-if="evento.past"
           color="neutral"
           icon="streamline:interface-time-rewind-back-return-clock-timer-countdown"
           >Passado</ExtraEsquerdo
