@@ -45,6 +45,8 @@ const texto = computed(() => {
 });
 
 const klass = computed(() => {
+  let border_color = "muted";
+  let bg_color = "white";
   let klasses = [
     "py-2",
     "sm:py-3",
@@ -55,15 +57,20 @@ const klass = computed(() => {
     "mb-4",
     "rounded-sm",
     "border",
-    "border-muted",
   ];
 
   if (is_past.value) {
     // klasses.push("bg-neutral-100/50");
-    klasses.push("bg-elevated");
+    bg_color = "elevated";
+    border_color = "neutral";
   } else if (props.evento.tipo == "ini-semestre") {
-    klasses.push("bg-primary/10")
+    bg_color = "primary/10";
+    border_color = "primary";
+  } else if (props.evento.tipo == "feriado") {
+    border_color = "warning";
   }
+
+  klasses.push(`border-${border_color}`, `bg-${bg_color}`);
 
   return klasses;
 });
@@ -75,7 +82,11 @@ const klass = computed(() => {
     <div class="group relative flex flex-1 gap-3">
       <div class="relative flex items-end gap-1.5 flex-col">
         <Icone :event="props.evento" />
-        <ExtraEsquerdo color="neutral" icon="streamline:calendar-star-solid" variant="outline">
+        <ExtraEsquerdo
+          color="neutral"
+          icon="streamline:calendar-star-solid"
+          variant="outline"
+        >
           {{ evento.semestre.nome }}
         </ExtraEsquerdo>
         <ExtraEsquerdo

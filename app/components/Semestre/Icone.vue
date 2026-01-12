@@ -46,6 +46,10 @@ const klass = computed(() => {
     color = props.event.tipo || "evento";
   }
 
+  if (props.event.tipo === "ini-semestre") {
+    color = "default";
+  }
+
   return `bg-${color} inline-flex items-center justify-center shrink-0 select-none rounded-full align-middle size-8 text-base`;
 });
 </script>
