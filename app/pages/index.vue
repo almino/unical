@@ -60,7 +60,7 @@ const agrupar = (semestres: any[]) => {
     });
   });
 
-  // console.log(agrupado);
+  // console.debug(agrupado);
   return agrupado;
 };
 

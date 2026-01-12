@@ -36,8 +36,8 @@ const is_past = computed(() => {
   return date.value < now;
 });
 
-const localidade = computed(() => {
-  return props.evento.localidade || "";
+const localidades = computed(() => {
+  return props.evento.localidades || [];
 });
 
 const texto = computed(() => {
@@ -95,7 +95,6 @@ const klass = computed(() => {
           icon="streamline:interface-time-rewind-back-return-clock-timer-countdown"
           >Passado</ExtraEsquerdo
         >
-        <Localidade v-for="(l, i) in localidades" :localidade="l" :key="i" />
       </div>
       <div class="w-full pb-6.5">
         <MDC
@@ -106,6 +105,7 @@ const klass = computed(() => {
           unwrap="p"
         />
         <div class="flex flex-wrap justify-end gap-2 items-end">
+          <Localidade v-for="(l, i) in localidades" :localidade="l" :key="i" />
           <Agente v-if="evento.agente">{{ evento.agente }}</Agente>
           <Data
             :date="evento.inicia"
