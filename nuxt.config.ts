@@ -10,6 +10,9 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxt/a11y",
   ],
+  nitro: {
+    preset: 'cloudflare_pages',
+  },
   ui: {
     theme: {
       colors: [
