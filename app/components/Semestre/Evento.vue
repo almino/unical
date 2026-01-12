@@ -81,7 +81,7 @@ const klass = computed(() => {
     <Data class="hidden" :date="date" />
     <div class="group relative flex flex-1 gap-3">
       <div class="relative flex items-end gap-1.5 flex-col">
-        <Icone :event="props.evento" />
+        <Icone :evento="props.evento" />
         <ExtraEsquerdo
           color="neutral"
           icon="streamline:calendar-star-solid"

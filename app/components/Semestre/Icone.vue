@@ -4,31 +4,31 @@ const props = defineProps({
     type: String,
     required: false,
   },
-  event: {
+  evento: {
     type: Object,
     required: true,
   },
 });
 
 const icon = computed(() => {
-  if (props.event.icone) {
-    return props.event.icone;
+  if (props.evento.icone) {
+    return props.evento.icone;
   }
 
   if (
-    !props.event.icone &&
-    (!props.event.tipo ||
-      props.event.tipo === "evento") &&
-    props.event.termina
+    !props.evento.icone &&
+    (!props.evento.tipo ||
+      props.evento.tipo === "evento") &&
+    props.evento.termina
   ) {
     return "streamline:interface-calendar-download-arrow-calendar-date-day-down-download-month";
   }
 
-  if (props.event.inicia) {
+  if (props.evento.inicia) {
     return "streamline:interface-calendar-upload-calendar-date-day-month-push-up-arrow-upload";
   }
 
-  switch (props.event.tipo) {
+  switch (props.evento.tipo) {
     case "comemorativa":
       return "streamline:star-badge-remix";
     case "feriado":
@@ -43,10 +43,10 @@ const klass = computed(() => {
   let color;
 
   if (typeof props.color === "undefined") {
-    color = props.event.tipo || "evento";
+    color = props.evento.tipo || "evento";
   }
 
-  if (props.event.tipo === "ini-semestre") {
+  if (props.evento.tipo === "ini-semestre") {
     color = "default";
   }
 
