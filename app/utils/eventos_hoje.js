@@ -11,7 +11,7 @@ export default function (eventos) {
     // console.debug("data =", evento.data);
     // console.debug("yesterday =", yesterday);
     if (!eventos[i].is_past) {
-      console.info("Encotrei o evento de hoje:", eventos[i].data);
+      // console.info("Encotrei o evento de hoje:", eventos[i].data);
       break;
     }
 

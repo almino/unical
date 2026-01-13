@@ -77,7 +77,7 @@ const klass = computed(() => {
           {{ evento.semestre.nome }}
         </ExtraEsquerdo>
         <ExtraEsquerdo
-          v-if="evento.is_past"
+          v-if="evento.is_past && !evento.is_finished"
           color="neutral"
           icon="streamline:interface-time-rewind-back-return-clock-timer-countdown"
           >Passado</ExtraEsquerdo

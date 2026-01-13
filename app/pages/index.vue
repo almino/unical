@@ -24,7 +24,7 @@ const eventos = computed(() => {
 
 const today = computed(() => {
   const hoje = eventos_hoje(eventos.value);
-  console.debug("hoje =", hoje);
+  // console.debug("hoje =", hoje);
   return hoje;
 });
 

@@ -82,12 +82,15 @@ eventos:
 
   - data: 2025-09-29
     tipo: feriado
+    localidades:
+      - Camocim
     texto: FERIADO MUNICIPAL (CAMOCIM) – Aniversário da cidade
 
   - data: 2025-10-03
     texto: RESULTADO das solicitações de OUTORGA DE GRAU referente ao Período Letivo 2025.1
 
   - data: 2025-10-03
+    agente: Docentes
     texto: Término do período de cadastramento on-line dos GRUPOS DE ESTUDOS referentes ao Período Letivo 2025.2 pelos professores
 
   - data: 2025-10-04
@@ -186,8 +189,9 @@ eventos:
     texto: FERIADO NACIONAL – Proclamação da República
 
   - data: 2025-11-17
+    termina: 2025-12-12
     agente: Coordenações
-    texto: Início do período de cadastro da OFERTA do Período Letivo 2026.1 pelas Coordenações dos Cursos. (Até 12/12/2025)
+    texto: Início do período de cadastro da OFERTA do Período Letivo 2026.1 pelas Coordenações dos Cursos.
 
   - data: 2025-11-17
     termina: 2025-11-21
@@ -215,6 +219,8 @@ eventos:
 
   - data: 2026-01-25
     tipo: feriado
+    localidades:
+      - São Benedito
     texto: FERIADO MUNICIPAL (SÃO BENEDITO) – Emancipação política
 
   - data: 2025-12-01
@@ -233,7 +239,7 @@ eventos:
       - Sobral
       - Acaraú
       - São Benedito
-    texto: FERIADO MUNICIPAL (Sobral, Acaraú, São Benedito) – Imaculada Conceição *
+    texto: FERIADO MUNICIPAL (Sobral, Acaraú, São Benedito) – Imaculada Conceição
 
   - data: 2025-12-12
     agente: Coordenações
@@ -269,6 +275,7 @@ eventos:
     texto: Fim do cadastramento on-line das comprovações das ATIVIDADES COMPLEMENTARES pelos alunos
 
   - data: 2026-02-24
+    inicia: 2025-09-08
     tipo: fim-semestre
     texto: TÉRMINO DO PERÍODO LETIVO 2025.2 (103 dias letivos)
 
@@ -290,14 +297,17 @@ eventos:
     texto: Início do cadastramento on-line das atividades no PLANO DE TRABALHO DOCENTE (PTD) referentes ao Período Letivo 2026.1
 
   - data: 2026-03-09
+    agente: Discentes
     tipo: matrícula
     texto: MATRÍCULA on-line de ALUNOS VETERANOS dos cursos do CCAB e CCET para o Período Letivo 2026.1
 
   - data: 2026-03-10
+    agente: Discentes
     tipo: matrícula
     texto: MATRÍCULA on-line de ALUNOS VETERANOS dos cursos do CCH e CCSA para o Período Letivo 2026.1
 
   - data: 2026-03-11
+    agente: Discentes
     tipo: matrícula
     texto: MATRÍCULA on-line de ALUNOS VETERANOS dos cursos do CENFLE e CCS para o Período Letivo 2026.1
 

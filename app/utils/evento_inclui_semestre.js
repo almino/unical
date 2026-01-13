@@ -31,11 +31,12 @@ export default function (semestres) {
       const evento_tratado = {
         ...evento,
         semestre: info_semestre,
-        key: `${evento.data}_${si}-${ei}`,
         date: date,
         dates: {},
+        is_finished: false,
         is_past: date < DateTime.now(),
         is_today: date.hasSame(DateTime.now(), "day"),
+        key: `${evento.data}_${si}-${ei}`,
       };
 
       for (let term of ["inicia", "termina"]) {
@@ -45,7 +46,8 @@ export default function (semestres) {
       }
 
       if (evento_tratado.dates.hasOwnProperty("termina")) {
-        evento_tratado.is_past = evento_tratado.dates.termina < DateTime.now();
+        evento_tratado.is_finished =
+          evento_tratado.dates.termina > DateTime.now();
       }
 
       eventos.push(evento_tratado);
