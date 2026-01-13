@@ -20,15 +20,7 @@ const date = computed(() => {
 });
 
 const dates = computed(() => {
-  let result = {};
-
-  for (let term of ["inicia", "termina"]) {
-    if (props.evento.hasOwnProperty(term)) {
-      result[term] = DateTime.fromISO(props.evento[term]);
-    }
-  }
-
-  return result;
+  return props.evento.dates || {};
 });
 
 const localidades = computed(() => {
@@ -54,7 +46,7 @@ const klass = computed(() => {
     "border",
   ];
 
-  if (props.evento.past) {
+  if (props.evento.is_past) {
     // klasses.push("bg-neutral-100/50");
     bg_color = "elevated";
     border_color = "neutral";
@@ -85,7 +77,7 @@ const klass = computed(() => {
           {{ evento.semestre.nome }}
         </ExtraEsquerdo>
         <ExtraEsquerdo
-          v-if="evento.past"
+          v-if="evento.is_past"
           color="neutral"
           icon="streamline:interface-time-rewind-back-return-clock-timer-countdown"
           >Passado</ExtraEsquerdo

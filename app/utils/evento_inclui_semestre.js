@@ -44,6 +44,10 @@ export default function (semestres) {
         }
       }
 
+      if (evento_tratado.dates.hasOwnProperty("termina")) {
+        evento_tratado.is_past = evento_tratado.dates.termina < DateTime.now();
+      }
+
       eventos.push(evento_tratado);
     });
   });
