@@ -1,10 +1,8 @@
 import evento_inclui_semestre from "~/utils/evento_inclui_semestre.js";
 
 // It will be available as randomEntry() (camelCase of file name without extension)
-export default function (semestres) {
+export default function (eventos) {
   const agrupado = {};
-
-  const eventos = evento_inclui_semestre(semestres);
 
   eventos.forEach((evento, index) => {
     const date = evento.date;
