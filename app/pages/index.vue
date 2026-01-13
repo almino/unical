@@ -1,6 +1,7 @@
 <script setup>
 import { DateTime, Settings } from "luxon";
-import Mes from "~/components/Semestre/Mes.vue";
+import Container from "~/components/Semestre/Container.vue";
+import ListaEventos from "~/components/Semestre/ListaEventos.vue";
 import Nav from "~/components/Semestre/Nav.vue";
 import agrupar_eventos from "~/utils/agrupar_eventos";
 import evento_inclui_semestre from "~/utils/evento_inclui_semestre";
@@ -33,17 +34,8 @@ const eventos_agrupados = computed(() => {
 </script>
 
 <template>
-  <UContainer class="mx-auto max-w-xl">
+  <Container>
     <Nav :hoje="today" />
-    <div v-for="(meses, ano) in eventos_agrupados" :key="ano" class="ano">
-      <h2>Ano de {{ ano }}</h2>
-      <Mes
-        v-for="(dias, mes) in meses"
-        :key="`${ano}-${mes}`"
-        :ano="ano"
-        :mes="mes"
-        :dias="dias"
-      />
-    </div>
-  </UContainer>
+    <ListaEventos :eventos="eventos_agrupados" />
+  </Container>
 </template>
