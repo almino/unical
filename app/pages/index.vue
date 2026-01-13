@@ -22,8 +22,8 @@ const eventos = computed(() => {
 });
 
 const today = computed(() => {
-  const hoje = eventos_hoje(eventos.value)
-  console.debug("hoje =", hoje)
+  const hoje = eventos_hoje(eventos.value);
+  console.debug("hoje =", hoje);
   return hoje;
 });
 
@@ -33,20 +33,17 @@ const eventos_agrupados = computed(() => {
 </script>
 
 <template>
-  <Nav :hoje="today" />
-  <div
-    v-for="(meses, ano) in eventos_agrupados"
-    :key="ano"
-    class="ano mx-auto max-w-xl"
-  >
-    <h2>Ano de {{ ano }}</h2>
-
-    <Mes
-      v-for="(dias, mes) in meses"
-      :key="`${ano}-${mes}`"
-      :ano="ano"
-      :mes="mes"
-      :dias="dias"
-    />
-  </div>
+  <UContainer class="mx-auto max-w-xl">
+    <Nav :hoje="today" />
+    <div v-for="(meses, ano) in eventos_agrupados" :key="ano" class="ano">
+      <h2>Ano de {{ ano }}</h2>
+      <Mes
+        v-for="(dias, mes) in meses"
+        :key="`${ano}-${mes}`"
+        :ano="ano"
+        :mes="mes"
+        :dias="dias"
+      />
+    </div>
+  </UContainer>
 </template>

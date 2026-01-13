@@ -17,5 +17,5 @@ const items = computed(() => [
 </script>
 
 <template>
-  <UNavigationMenu class="mx-auto max-w-xl justify-end" :items="items" />
+  <UNavigationMenu class="justify-end" :items="items" />
 </template>
