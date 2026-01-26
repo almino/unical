@@ -102,7 +102,7 @@ const faltam = computed(() => {
       </div>
       <div class="w-full">
         <MDC
-          class="font-bold"
+          class="font-bold mb-2"
           tag="h5"
           property="about"
           :value="texto"

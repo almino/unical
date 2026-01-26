@@ -10,8 +10,12 @@ const props = defineProps({
 </script>
 
 <template>
-  <div v-for="(meses, ano) in props.eventos" :key="ano" class="ano">
-    <h2 class="font-serif font-bold text-2xl">Ano de {{ ano }}</h2>
+  <div
+    v-for="(meses, ano) in props.eventos"
+    :key="ano"
+    class="ano border-b-2 border-primary last:border-none"
+  >
+    <h2 class="font-bold font-serif mt-4 text-2xl">Ano de {{ ano }}</h2>
     <Mes
       v-for="(dias, mes) in meses"
       :key="`${ano}-${mes}`"
@@ -21,3 +25,9 @@ const props = defineProps({
     />
   </div>
 </template>
+
+<style lang="css" scoped>
+.ano:first-of-type > h2 {
+  margin-top: 0;
+}
+</style>

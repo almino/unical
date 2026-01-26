@@ -43,7 +43,7 @@ const date_iso = computed(() => {
 </script>
 
 <template>
-  <h4 :id="date_iso">{{ date_huge }}</h4>
+  <h4 class="font-bold font-serif mb-1 mt-2 text-lg" :id="date_iso">{{ date_huge }}</h4>
   <ul>
     <li
       v-for="(evento, index) in eventos"
