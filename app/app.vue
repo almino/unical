@@ -8,11 +8,13 @@ import Header from "~/components/Header.vue";
   <UApp>
     <Header />
     <UMain>
-      <NuxtLayout>
-        <UContainer class="py-2 sm:py-4 lg:py-6">
-          <NuxtPage />
-        </UContainer>
-      </NuxtLayout>
+      <UPage id="app-page">
+        <NuxtLayout>
+          <UContainer class="py-2 sm:py-4 lg:py-6">
+            <NuxtPage />
+          </UContainer>
+        </NuxtLayout>
+      </UPage>
     </UMain>
     <Footer />
   </UApp>

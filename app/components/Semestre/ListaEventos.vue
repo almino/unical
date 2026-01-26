@@ -11,7 +11,7 @@ const props = defineProps({
 
 <template>
   <div v-for="(meses, ano) in props.eventos" :key="ano" class="ano">
-    <h2>Ano de {{ ano }}</h2>
+    <h2 class="font-serif font-bold text-2xl">Ano de {{ ano }}</h2>
     <Mes
       v-for="(dias, mes) in meses"
       :key="`${ano}-${mes}`"

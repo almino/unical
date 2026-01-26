@@ -1,9 +1,10 @@
-import { DateTime, Settings } from "luxon";
+import { DateTime, Interval, Settings } from "luxon";
 
 Settings.defaultLocale = "pt-BR";
 
 // It will be available as randomEntry() (camelCase of file name without extension)
 export default function (semestres) {
+  const today = DateTime.now();
   const eventos = [];
 
   semestres.forEach((semestre, si) => {
@@ -27,15 +28,23 @@ export default function (semestres) {
         return;
       }
 
+      const duration = evento.is_past ? today.diff(date) : date.diffNow();
+      const interval = evento.is_past
+        ? Interval.fromDateTimes(date, today)
+        : Interval.fromDateTimes(today, date);
+      // console.debug(duration.as("days"));
+
       // Adiciona evento com informações do semestre
       const evento_tratado = {
         ...evento,
         semestre: info_semestre,
         date: date,
         dates: {},
+        duration: duration,
+        interval: interval,
         is_finished: false,
-        is_past: date < DateTime.now(),
-        is_today: date.hasSame(DateTime.now(), "day"),
+        is_past: date < today,
+        is_today: date.hasSame(today, "day"),
         key: `${evento.data}_${si}-${ei}`,
       };
 

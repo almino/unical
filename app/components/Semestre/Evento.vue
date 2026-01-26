@@ -61,6 +61,23 @@ const klass = computed(() => {
 
   return klasses;
 });
+
+const faltam = computed(() => {
+  const duration = props.evento.duration;
+  let pre = "faltam";
+  let valor = duration.as("days");
+  let texto = valor < 2 ? "dia" : "dias";
+
+  if (duration.as("months") >= 2) {
+    valor = duration.as("months");
+    texto = "meses";
+  }
+
+  if (valor < 2) pre = "falta";
+  valor = Math.round(valor);
+
+  return `${pre} ${valor} ${texto}`;
+});
 </script>
 
 <template>
@@ -83,7 +100,7 @@ const klass = computed(() => {
           >Passado</ExtraEsquerdo
         >
       </div>
-      <div class="w-full pb-6.5">
+      <div class="w-full">
         <MDC
           class="font-bold"
           tag="h5"
@@ -92,6 +109,13 @@ const klass = computed(() => {
           unwrap="p"
         />
         <div class="flex flex-wrap justify-end gap-2 items-end">
+          <ExtraEsquerdo
+            v-if="!evento.is_past && !evento.is_today"
+            color="primary"
+            icon="streamline:interface-time-sleep-nap-sleep-rest-break-clock"
+            variant="outline"
+            >{{ faltam }}</ExtraEsquerdo
+          >
           <Localidade v-for="(l, i) in localidades" :localidade="l" :key="i" />
           <Agente v-if="evento.agente">{{ evento.agente }}</Agente>
           <Data
