@@ -28,11 +28,19 @@ export default function (semestres) {
         return;
       }
 
-      const duration = evento.is_past ? today.diff(date) : date.diffNow();
-      const interval = evento.is_past
+      let duration = evento.is_past ? today.diff(date) : date.diffNow();
+      let interval = evento.is_past
         ? Interval.fromDateTimes(date, today)
         : Interval.fromDateTimes(today, date);
       // console.debug(duration.as("days"));
+
+      if (evento.hasOwnProperty("termina")) {
+        const termina = DateTime.fromISO(evento.termina);
+        if (termina.isValid && termina > today) {
+          duration = termina.diff(today);
+          interval = Interval.fromDateTimes(today, termina);
+        }
+      }
 
       // Adiciona evento com informações do semestre
       const evento_tratado = {
