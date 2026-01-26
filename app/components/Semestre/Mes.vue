@@ -36,9 +36,9 @@ const nomeMes = computed(() => nomesMeses[props.mes]);
 
 <template>
   <div
-    class="mb-4 mes border-b-2 border-dashed border-primary last:border-none"
+    class="mb-4 mes border-b-2 border-dashed border-primary last:border-none relative"
   >
-    <h3 class="font-bold font-serif text-xl">
+    <h3 class="backdrop-blur bg-white/75 font-bold font-serif py-2 sticky top-15 text-xl z-10">
       {{ nomeMes }} de {{ props.ano }}
     </h3>
     <ul>
