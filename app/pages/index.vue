@@ -12,7 +12,10 @@ Settings.defaultLocale = "pt-BR";
 const { data: semestres } = await useAsyncData("semestres", () => {
   return queryCollection("semestres")
     .orWhere((q) =>
-      q.where("fim", ">", DateTime.now().toISO()).where("fim", "IS NULL")
+      q
+        .where("fim", ">", DateTime.now().toISO())
+        .where("fim", "IS NULL")
+        .where("ocultar_em", ">", DateTime.now().plus({ days: -1 }).toISO()),
     )
     .order("fim", "DESC")
     .all();

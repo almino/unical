@@ -22,6 +22,7 @@ export default defineContentConfig({
         dias_letivos: z.number().optional(),
         ini: z.date(),
         fim: z.date().optional(),
+        ocultar_em: z.date().optional(),
         eventos: z.array(
           z.object({
             agente: z.string().optional(),

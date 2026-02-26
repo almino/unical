@@ -8,6 +8,8 @@ ini: 2025-09-08
 fim: 2026-02-24
 dias_letivos: 103
 
+ocultar_em: 2026-03-13
+
 meses_letivos:
 
   - mes: 2025-09
