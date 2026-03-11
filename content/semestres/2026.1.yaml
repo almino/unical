@@ -34,7 +34,6 @@ eventos:
     texto: FÉRIAS COLETIVAS DOS DOCENTES
 
   - data: 2026-02-02
-    termina: 2026-02-28
     texto: Período de solicitação de OUTORGA DE GRAU referente ao Semestre Letivo 2025.2
 
   - data: 2026-02-13
@@ -159,7 +158,6 @@ eventos:
     texto: MATRÍCULA DE RETARDATÁRIOS on-line para o Semestre Letivo 2026.1
 
   - data: 2026-04-10
-    inicia: 2026-02-02
     texto: Prazo final para o RESULTADO das solicitações de OUTORGA DE GRAU referente ao Semestre Letivo 2025.2
 
   - data: 2026-04-16
@@ -174,7 +172,6 @@ eventos:
     texto: Período de solicitação de DIPLOMA (via Sistema de Requerimento Online) pelos estudantes concluintes do Semestre Letivo 2025.2
 
   - data: 2026-04-20
-    termina: 2026-04-24
     texto: Período de solicitação de OUTORGA DE GRAU em período especial referente ao Semestre Letivo 2025.2
 
   - data: 2026-04-21
@@ -243,7 +240,6 @@ eventos:
     texto: Dia da planta medicinal
 
   - data: 2026-05-22
-    inicia: 2026-04-20
     texto: Prazo final para o RESULTADO das solicitações de OUTORGA DE GRAU em período especial referente ao Semestre Letivo 2025.2
 
   - data: 2026-05-25
@@ -319,7 +315,6 @@ eventos:
     texto: Início da validação da OFERTA 2026.2 pela PROGRAD
 
   - data: 2026-07-13
-    termina: 2026-08-07
     texto: Início do período de solicitação de OUTORGA DE GRAU referente ao Semestre Letivo 2026.1
 
   - data: 2026-07-13
