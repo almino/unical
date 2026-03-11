@@ -5,20 +5,100 @@ oficios:
   - RESOLUÇÃO ad referendum N° 02/2026 – CEPE
 url: https://ww2.uva.ce.gov.br/apps/common/documentos_uva/calendario_951c82c945d20c921a6.pdf
 ini: 2026-03-30
-
+fim: 2026-07-31
+dias_letivos: 102
+ocultar_em: 2026-08-12
 
 meses_letivos:
 
   - mes: 2026-03
-    dias_letivos: 7
+    dias_letivos: 2
     nome: março de 2026
+  - mes: 2026-04
+    dias_letivos: 23
+    nome: abril de 2026
+  - mes: 2026-05
+    dias_letivos: 25
+    nome: maio de 2026
+  - mes: 2026-06
+    dias_letivos: 25
+    nome: junho de 2026
+  - mes: 2026-07
+    dias_letivos: 27
+    nome: julho de 2026
 
 
 eventos:
 
+  - data: 2026-01-02
+    termina: 2026-01-31
+    tipo: feriado
+    texto: FÉRIAS COLETIVAS DOS DOCENTES
+
+  - data: 2026-02-02
+    termina: 2026-02-28
+    texto: Período de solicitação de OUTORGA DE GRAU referente ao Semestre Letivo 2025.2
+
+  - data: 2026-02-13
+    texto: Término da validação da OFERTA do Semestre Letivo 2026.1 pela PROGRAD
+
+  - data: 2026-02-14
+    termina: 2026-02-17
+    tipo: feriado
+    texto: RECESSO DE CARNAVAL
+
+  - data: 2026-02-24
+    agente: Discentes
+    texto: Fim do cadastramento on-line das comprovações das ATIVIDADES COMPLEMENTARES pelos alunos
+
+  - data: 2026-02-24
+    texto: Último dia para cadastrar os Relatórios Finais, referente ao Semestre Letivo 2025.2, no PLANO DE TRABALHO DOCENTE (PTD)
+
+  - data: 2026-02-24
+    inicia: 2025-09-08
+    tipo: fim-semestre
+    texto: TÉRMINO DO SEMESTRE LETIVO 2025.2 (103 dias letivos)
+
+  - data: 2026-02-25
+    texto: Início do cadastramento on-line das atividades no PLANO DE TRABALHO DOCENTE (PTD) referentes ao Semestre Letivo 2026.1
+
+  - data: 2026-02-28
+    agente: Docentes
+    texto: Término do cadastramento on-line das NOTAS do Semestre Letivo 2025.2
+
+  - data: 2026-03-07
+    agente: Coordenações
+    texto: Término do prazo de entrega dos MAPAS DE NOTAS do Semestre Letivo 2025.2, pelas Coordenações. Envio via e-mail para o DEG.
+
+  - data: 2026-03-07
+    texto: Fim do lançamento on-line das atividades no PLANO DE TRABALHO DOCENTE (PTD) referentes ao Semestre Letivo 2025.2.
+
+  - data: 2026-03-09
+    agente: Discentes
+    tipo: matrícula
+    texto: MATRÍCULA on-line de ALUNOS VETERANOS dos cursos do CCAB e CCET para o Semestre Letivo 2026.1
+
+  - data: 2026-03-10
+    agente: Discentes
+    tipo: matrícula
+    texto: MATRÍCULA on-line de ALUNOS VETERANOS dos cursos do CCH e CCSA para o Semestre Letivo 2026.1
+
+  - data: 2026-03-11
+    agente: Discentes
+    tipo: matrícula
+    texto: MATRÍCULA on-line de ALUNOS VETERANOS dos cursos do CENFLE e CCS para o Semestre Letivo 2026.1
+
+  - data: 2026-03-12
+    termina: 2026-03-13
+    tipo: matrícula
+    texto: MATRÍCULA on-line de ALUNOS VETERANOS de TODOS os Centros de Ensino (CCAB, CCET, CCH, CCSA, CENFLE e CCS) para o Semestre Letivo 2026.1
+
   - data: 2026-03-16
-    tipo: ini-semestre
-    texto: INÍCIO DO SEMESTRE LETIVO 2026.1
+    termina: 2026-03-18
+    texto: I Semana de Pedagogia do Campus Acaraú
+
+  - data: 2026-03-18
+    texto: Curso de Campo em Ecologia Aquática - Campus Camocim
 
   - data: 2026-03-19
     tipo: feriado
@@ -27,3 +107,251 @@ eventos:
   - data: 2026-03-25
     tipo: feriado
     texto: FERIADO ESTADUAL – Data Magna
+
+  - data: 2026-03-26
+    termina: 2026-03-27
+    texto: IV Workshop da Caatinga
+
+  - data: 2026-03-30
+    tipo: ini-semestre
+    texto: INÍCIO DO SEMESTRE LETIVO 2026.1
+
+  - data: 2026-03-30
+    termina: 2026-07-31
+    agente: Discentes
+    texto: Início do cadastramento on-line das comprovações das ATIVIDADES COMPLEMENTARES pelos alunos
+
+  - data: 2026-03-30
+    termina: 2026-04-24
+    agente: Docentes
+    texto: Início do período de cadastramento on-line dos GRUPOS DE ESTUDOS referentes ao Semestre Letivo 2026.1 pelos professores
+
+  - data: 2026-03-30
+    termina: 2026-04-07
+    agente: Docentes
+    texto: Início do cadastramento on-line dos MONITORES referentes ao Semestre Letivo 2026.1 pelos professores
+
+  - data: 2026-03-30
+    termina: 2026-04-10
+    agente: Discentes
+    texto: Início da solicitação de APROVEITAMENTO DE ESTUDOS para o Semestre Letivo 2026.1, pelos alunos às Coordenações de Cursos
+
+  - data: 2026-04-03
+    tipo: feriado
+    texto: FERIADO NACIONAL – Sexta-feira Santa
+
+  - data: 2026-04-04
+    tipo: feriado
+    texto: RECESSO ACADÊMICO – Sábado Santo
+
+  - data: 2026-04-06
+    termina: 2026-04-10
+    tipo: matrícula
+    texto: REAJUSTE DE MATRÍCULA on-line para o Semestre Letivo 2026.1
+
+  - data: 2026-04-07
+    agente: Docentes
+    texto: Término do período de cadastramento on-line de MONITORES VOLUNTÁRIOS referentes ao Semestre Letivo 2026.1 pelos docentes
+
+  - data: 2026-04-08
+    tipo: matrícula
+    texto: MATRÍCULA DE RETARDATÁRIOS on-line para o Semestre Letivo 2026.1
+
+  - data: 2026-04-10
+    texto: Prazo final para o RESULTADO das solicitações de OUTORGA DE GRAU referente ao Semestre Letivo 2025.2
+
+  - data: 2026-04-16
+    texto: SOLENIDADE DE OUTORGA DE GRAU referente ao Semestre Letivo 2025.2
+
+  - data: 2026-04-16
+    termina: 2026-04-17
+    texto: I Feira Literária Infantil - Campus Ibiapaba
+
+  - data: 2026-04-17
+    termina: 2026-04-24
+    texto: Período de solicitação de DIPLOMA (via Sistema de Requerimento Online) pelos estudantes concluintes do Semestre Letivo 2025.2
+
+  - data: 2026-04-20
+    termina: 2026-04-24
+    texto: Período de solicitação de OUTORGA DE GRAU em período especial referente ao Semestre Letivo 2025.2
+
+  - data: 2026-04-21
+    tipo: feriado
+    texto: FERIADO NACIONAL – Tiradentes
+
+  - data: 2026-04-24
+    agente: Docentes
+    texto: Término do período de cadastramento on-line dos GRUPOS DE ESTUDOS referentes ao Semestre Letivo 2026.1 pelos professores
+
+  - data: 2026-04-28
+    termina: 2026-04-29
+    texto: I Seminário do Grupo de Pesquisa EDUCAS/UVA - Campus Ibiapaba
+
+  - data: 2026-05-01
+    tipo: feriado
+    texto: FERIADO NACIONAL – Dia do Trabalhador
+
+  - data: 2026-05-04
+    termina: 2026-05-08
+    agente: Coordenações
+    texto: Período de tramitação via Sistema de Requerimento Online (SRO) das solicitações de APROVEITAMENTO DE ESTUDOS para o semestre 2026.1 pelas coordenações de Cursos à PROGRAD
+
+  - data: 2026-05-04
+    termina: 2026-05-08
+    texto: Período de solicitação de remanejamento temporário para o Semestre Letivo 2026.2 no Sistema de Protocolo da UVA
+
+  - data: 2026-05-06
+    tipo: comemorativa
+    texto: Dia Nacional da Matemática
+
+  - data: 2026-05-11
+    termina: 2026-05-15
+    agente: Discentes
+    texto: Período de solicitação de ABREVIAÇÃO DE DURAÇÃO DE CURSO referente ao Semestre Letivo 2026.1, pelos alunos, à PROGRAD
+
+  - data: 2026-05-12
+    termina: 2026-05-13
+    texto: Simpósio de Aquicultura Sustentável - Campus Camocim
+
+  - data: 2026-05-13
+    tipo: feriado
+    localidades:
+      - São Benedito
+    texto: FERIADO MUNICIPAL – São Benedito – Nossa Senhora de Fátima
+
+  - data: 2026-05-18
+    termina: 2026-05-22
+    agente: Coordenações
+    texto: Período de análise das solicitações de ABREVIAÇÃO DE DURAÇÃO DE CURSO referente ao Semestre Letivo 2026.1 pela PROGRAD
+
+  - data: 2026-05-19
+    tipo: conmemorativa
+    texto: Dia do Físico
+
+  - data: 2026-05-19
+    termina: 2026-05-22
+    texto: XIV Semana da Enfermagem
+
+  - data: 2026-05-21
+    tipo: conmemorativa
+    texto: Dia da planta medicinal
+
+  - data: 2026-05-22
+    texto: Prazo final para o RESULTADO das solicitações de OUTORGA DE GRAU em período especial referente ao Semestre Letivo 2025.2
+
+  - data: 2026-05-25
+    termina: 2026-05-29
+    tipo: matrícula
+    texto: Período de TRANCAMENTO ON-LINE DE DISCIPLINAS do Semestre Letivo 2026.1 pelos alunos
+
+  - data: 2026-05-25
+    termina: 2026-05-29
+    texto: XXII Semana do Curso de Letras
+
+  - data: 2026-05-28
+    texto: SOLENIDADE DE OUTORGA DE GRAU em período especial referente ao Semestre Letivo 2025.2
+
+  - data: 2026-06-03
+    texto: Último dia para cadastro de atividades através do sistema acadêmico, pelo docente, que importem em diminuição de carga horária de ensino no Semestre Letivo 2026.2
+
+  - data: 2026-06-03
+    texto: Último dia para envio de Portarias de remanejamento de docentes intercampi pela PROGEP à PROGRAD
+
+  - data: 2026-06-04
+    tipo: feriado
+    texto: FERIADO NACIONAL – Corpus Christi
+
+  - data: 2026-06-08
+    termina: 2026-07-03
+    agente: Coordenações
+    texto: Início do período de cadastro da OFERTA do Semestre Letivo 2026.2 pelas Coordenações dos Cursos
+
+  - data: 2026-06-08
+    termina: 2026-06-12
+    agente: Coordenações
+    texto: Período de divulgação do RESULTADO das solicitações de ABREVIAÇÃO DE DURAÇÃO DE CURSO referente ao Semestre Letivo 2026.1 pelas Coordenações dos Cursos à PROGRAD
+
+  - data: 2026-06-13
+    termina: 2026-06-15
+    texto: Jornada de Pesquisa e Iniciação Científica em Recursos Pesqueiros - Campus Camocim
+
+  - data: 2026-06-16
+    termina: 2026-06-19
+    texto: XII Semana de Química
+
+  - data: 2026-06-22
+    agente: Docentes
+    termina: 2026-08-06
+    texto: Início do período de cadastramento on-line das NOTAS do Semestre Letivo 2026.1 pelos docentes
+
+  - data: 2026-06-26
+    texto: Divulgação do Edital do PROGRAMA DE MONITORIA para o Semestre Letivo 2026.2
+
+  - data: 2026-06-26
+    texto: Divulgação do Edital do PROCESSO SELETIVO ESPECIAL interno para o Semestre Letivo 2026.2
+
+  - data: 2026-06-29
+    termina: 2026-07-03
+    agente: Discentes
+    texto: Início do período de solicitação de análise das ATIVIDADES COMPLEMENTARES referente ao Semestre Letivo 2026.1 pelos alunos às Coordenações de Cursos
+
+  - data: 2026-07-03
+    agente: Coordenações
+    texto: Término do cadastramento da OFERTA para o Semestre Letivo 2026.2 pelas Coordenações dos Cursos
+
+  - data: 2026-07-05
+    tipo: feriado
+    localidades:
+      - Sobral
+    texto: FERIADO MUNICIPAL – Aniversário de Sobral
+
+  - data: 2026-07-06
+    texto: Início da validação da OFERTA 2026.2 pela PROGRAD
+
+  - data: 2026-07-13
+    termina: 2026-08-07
+    texto: Início do período de solicitação de OUTORGA DE GRAU referente ao Semestre Letivo 2026.1
+
+  - data: 2026-07-13
+    termina: 2026-07-17
+    agente: Coordenações
+    texto: Período de envio pelas Coordenações dos Cursos à PROGRAD da listagem de alunos com as ATIVIDADES COMPLEMENTARES concluídas, referentes ao Semestre Letivo 2026.1
+
+  - data: 2026-07-25
+    texto: Término da validação da OFERTA do Semestre Letivo 2026.2 pela PROGRAD
+
+  - data: 2026-07-27
+    termina: 2026-08-06
+    texto: Início do período de cadastro dos Relatórios Finais, referente ao Semestre Letivo 2026.1 no PLANO DE TRABALHO DOCENTE (PTD), pelos docentes
+
+  - data: 2026-07-31
+    agente: Discentes
+    texto: Término do período de cadastramento on-line das comprovações das ATIVIDADES COMPLEMENTARES pelos alunos
+
+  - data: 2026-07-31
+    agente: Docentes
+    texto: Término do período de cadastro on-line das atividades no PLANO DE TRABALHO DOCENTE (PTD) referentes ao Semestre Letivo 2026.1
+
+  - data: 2026-07-31
+    inicia: 2026-03-30
+    tipo: fim-semestre
+    texto: TÉRMINO DO SEMESTRE LETIVO 2026.1 (102 dias letivos)
+
+  - data: 2026-08-03
+    agente: Docentes
+    texto: Início do cadastramento on-line das atividades no PLANO DE TRABALHO DOCENTE (PTD) referentes ao Semestre Letivo 2026.2
+
+  - data: 2026-08-06
+    agente: Docentes
+    texto: Término do cadastramento on-line das NOTAS do Semestre Letivo 2026.1
+
+  - data: 2026-08-07
+    texto: Fim do período de solicitação de OUTORGA DE GRAU referente ao Semestre Letivo 2026.1
+
+  - data: 2026-08-11
+    tipo: conmemorativa
+    texto: Dia do Estudante
+
+  - data: 2026-08-15
+    agente: Coordenações
+    texto: Término do prazo de entrega dos MAPAS DE NOTAS do Período Letivo 2026.1, pelas Coordenações. Envio via e-mail para o DEG.
