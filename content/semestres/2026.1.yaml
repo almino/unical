@@ -222,7 +222,6 @@ eventos:
     texto: FERIADO MUNICIPAL – São Benedito – Nossa Senhora de Fátima
 
   - data: 2026-05-18
-    inicia: 2026-05-11
     termina: 2026-05-22
     agente: Coordenações
     texto: Período de análise das solicitações de ABREVIAÇÃO DE DURAÇÃO DE CURSO referente ao Semestre Letivo 2026.1 pela PROGRAD
@@ -270,7 +269,6 @@ eventos:
     texto: Início do período de cadastro da OFERTA do Semestre Letivo 2026.2 pelas Coordenações dos Cursos
 
   - data: 2026-06-08
-    inicia: 2026-05-11
     termina: 2026-06-12
     agente: Coordenações
     texto: Período de divulgação do RESULTADO das solicitações de ABREVIAÇÃO DE DURAÇÃO DE CURSO referente ao Semestre Letivo 2026.1 pelas Coordenações dos Cursos à PROGRAD
