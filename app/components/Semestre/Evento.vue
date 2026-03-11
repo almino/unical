@@ -65,18 +65,20 @@ const klass = computed(() => {
 const faltam = computed(() => {
   const duration = props.evento.duration;
   let pre = "faltam";
-  let valor = duration.as("days");
-  let texto = valor < 2 ? "dia" : "dias";
+  let valor = Math.round(duration.as("days"));
+  let plural = "dias";
 
   if (duration.as("months") >= 2) {
-    valor = duration.as("months");
-    texto = "meses";
+    valor = Math.round(duration.as("months"));
+    plural = "meses";
   }
 
-  if (valor < 2) pre = "falta";
-  valor = Math.round(valor);
+  if (valor === 1) {
+    pre = "falta";
+    plural = plural === "meses" ? "mês" : "dia";
+  }
 
-  return `${pre} ${valor} ${texto}`;
+  return `${pre} ${valor} ${plural}`;
 });
 </script>
 
