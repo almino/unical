@@ -29,8 +29,8 @@ def extract_tables(filepath: str) -> None:
             # if parent is not None:
             #     parent.decompose()
 
-        # Remove todos os estilos dos elementos <p>
-        for tag in soup.find_all(["p", "div"]):
+        # Remove todos os estilos dos elementos <p>, <div> e <span>
+        for tag in soup.find_all(["p", "div", "span"]):
             if "style" in tag.attrs:
                 del tag.attrs["style"]
 
