@@ -10,7 +10,6 @@ dias_letivos: 102
 ocultar_em: 2026-08-12
 
 meses_letivos:
-
   - mes: 2026-03
     dias_letivos: 2
     nome: março de 2026
@@ -27,11 +26,10 @@ meses_letivos:
     dias_letivos: 27
     nome: julho de 2026
 
-
 eventos:
-
   - data: 2026-01-02
     termina: 2026-01-31
+    agente: Docentes
     tipo: feriado
     texto: FÉRIAS COLETIVAS DOS DOCENTES
 
@@ -98,6 +96,8 @@ eventos:
     texto: I Semana de Pedagogia do Campus Acaraú
 
   - data: 2026-03-18
+    localidades:
+      - Camocim
     texto: Curso de Campo em Ecologia Aquática - Campus Camocim
 
   - data: 2026-03-19
@@ -113,6 +113,7 @@ eventos:
     texto: IV Workshop da Caatinga
 
   - data: 2026-03-30
+    fim: 2026-07-31
     tipo: ini-semestre
     texto: INÍCIO DO SEMESTRE LETIVO 2026.1
 
@@ -211,6 +212,8 @@ eventos:
 
   - data: 2026-05-12
     termina: 2026-05-13
+    localidades:
+      - Camocim
     texto: Simpósio de Aquicultura Sustentável - Campus Camocim
 
   - data: 2026-05-13
@@ -273,6 +276,8 @@ eventos:
 
   - data: 2026-06-13
     termina: 2026-06-15
+    localidades:
+      - Camocim
     texto: Jornada de Pesquisa e Iniciação Científica em Recursos Pesqueiros - Campus Camocim
 
   - data: 2026-06-16
