@@ -17,8 +17,7 @@ const icon = computed(() => {
 
   if (
     !props.evento.icone &&
-    (!props.evento.tipo ||
-      props.evento.tipo === "evento") &&
+    (!props.evento.tipo || props.evento.tipo === "evento") &&
     props.evento.termina
   ) {
     return "streamline:interface-calendar-download-arrow-calendar-date-day-down-download-month";
@@ -50,7 +49,9 @@ const klass = computed(() => {
     color = "default";
   }
 
-  return `bg-${color} inline-flex items-center justify-center shrink-0 select-none rounded-full align-middle size-8 text-base`;
+  // text-highlighted é um token semântico do Nuxt UI: preto no light,
+  // branco no dark — garante contraste contra o fundo colorido do círculo.
+  return `bg-${color} text-highlighted inline-flex items-center justify-center shrink-0 select-none rounded-full align-middle size-8 text-base`;
 });
 </script>
 

@@ -2,9 +2,9 @@
 import { DateTime, Settings } from "luxon";
 import Agente from "~/components/Semestre/Agente.vue";
 import Data from "~/components/Semestre/Data.vue";
+import ExtraEsquerdo from "./ExtraEsquerdo.vue";
 import Icone from "./Icone.vue";
 import Localidade from "./Localidade.vue";
-import ExtraEsquerdo from "./ExtraEsquerdo.vue";
 
 Settings.defaultLocale = "pt-BR";
 
@@ -32,8 +32,11 @@ const texto = computed(() => {
 });
 
 const klass = computed(() => {
+  // "default" é o token semântico do Nuxt UI que resolve para branco no
+  // light mode e para o fundo de superfície adequado no dark mode,
+  // evitando o bg-white hardcoded que quebra no dark.
   let border_color = "muted";
-  let bg_color = "white";
+  let bg_color = "default";
   let klasses = [
     "py-2",
     "sm:py-3",

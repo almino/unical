@@ -38,7 +38,11 @@ const nomeMes = computed(() => nomesMeses[props.mes]);
   <div
     class="mb-4 mes border-b-2 border-dashed border-primary last:border-none relative"
   >
-    <h3 class="backdrop-blur bg-white/75 font-bold font-serif py-2 sticky top-15 text-xl z-10">
+    <!-- bg-default/80 usa o token semântico do Nuxt UI: branco no light,
+         superfície escura no dark. backdrop-blur mantém o efeito "vidro". -->
+    <h3
+      class="backdrop-blur bg-default/80 font-bold font-serif py-2 sticky top-15 text-xl z-10"
+    >
       {{ nomeMes }} de {{ props.ano }}
     </h3>
     <ul>
