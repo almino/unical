@@ -113,7 +113,7 @@ eventos:
     texto: IV Workshop da Caatinga
 
   - data: 2026-03-30
-    fim: 2026-07-31
+    termina: 2026-07-31
     tipo: ini-semestre
     texto: INÍCIO DO SEMESTRE LETIVO 2026.1
 
@@ -159,6 +159,7 @@ eventos:
     texto: MATRÍCULA DE RETARDATÁRIOS on-line para o Semestre Letivo 2026.1
 
   - data: 2026-04-10
+    inicia: 2026-02-02
     texto: Prazo final para o RESULTADO das solicitações de OUTORGA DE GRAU referente ao Semestre Letivo 2025.2
 
   - data: 2026-04-16
@@ -193,6 +194,7 @@ eventos:
     texto: FERIADO NACIONAL – Dia do Trabalhador
 
   - data: 2026-05-04
+    inicia: 2026-05-04
     termina: 2026-05-08
     agente: Coordenações
     texto: Período de tramitação via Sistema de Requerimento Online (SRO) das solicitações de APROVEITAMENTO DE ESTUDOS para o semestre 2026.1 pelas coordenações de Cursos à PROGRAD
@@ -223,12 +225,13 @@ eventos:
     texto: FERIADO MUNICIPAL – São Benedito – Nossa Senhora de Fátima
 
   - data: 2026-05-18
+    inicia: 2026-05-11
     termina: 2026-05-22
     agente: Coordenações
     texto: Período de análise das solicitações de ABREVIAÇÃO DE DURAÇÃO DE CURSO referente ao Semestre Letivo 2026.1 pela PROGRAD
 
   - data: 2026-05-19
-    tipo: conmemorativa
+    tipo: comemorativa
     texto: Dia do Físico
 
   - data: 2026-05-19
@@ -236,10 +239,11 @@ eventos:
     texto: XIV Semana da Enfermagem
 
   - data: 2026-05-21
-    tipo: conmemorativa
+    tipo: comemorativa
     texto: Dia da planta medicinal
 
   - data: 2026-05-22
+    inicia: 2026-04-20
     texto: Prazo final para o RESULTADO das solicitações de OUTORGA DE GRAU em período especial referente ao Semestre Letivo 2025.2
 
   - data: 2026-05-25
@@ -270,6 +274,7 @@ eventos:
     texto: Início do período de cadastro da OFERTA do Semestre Letivo 2026.2 pelas Coordenações dos Cursos
 
   - data: 2026-06-08
+    inicia: 2026-05-11
     termina: 2026-06-12
     agente: Coordenações
     texto: Período de divulgação do RESULTADO das solicitações de ABREVIAÇÃO DE DURAÇÃO DE CURSO referente ao Semestre Letivo 2026.1 pelas Coordenações dos Cursos à PROGRAD
@@ -354,7 +359,7 @@ eventos:
     texto: Fim do período de solicitação de OUTORGA DE GRAU referente ao Semestre Letivo 2026.1
 
   - data: 2026-08-11
-    tipo: conmemorativa
+    tipo: comemorativa
     texto: Dia do Estudante
 
   - data: 2026-08-15
