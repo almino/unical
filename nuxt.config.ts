@@ -2,9 +2,9 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'UVA – Cronograma universitário',
+      title: "UVA – Cronograma universitário",
       htmlAttrs: {
-        lang: 'pt-BR',
+        lang: "pt-BR",
       },
     },
   },
@@ -42,6 +42,11 @@ export default defineNuxtConfig({
         "evento",
         "feriado",
       ],
+    },
+  },
+  vite: {
+    optimizeDeps: {
+      include: ["@vue/devtools-core", "@vue/devtools-kit"],
     },
   },
 });
