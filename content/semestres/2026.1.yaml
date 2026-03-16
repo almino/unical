@@ -34,6 +34,7 @@ eventos:
     texto: FÉRIAS COLETIVAS DOS DOCENTES
 
   - data: 2026-02-02
+    termina: 2026-02-28
     texto: Período de solicitação de OUTORGA DE GRAU referente ao Semestre Letivo 2025.2
 
   - data: 2026-02-13
@@ -92,6 +93,8 @@ eventos:
 
   - data: 2026-03-16
     termina: 2026-03-18
+    localidades:
+      - Acaraú
     texto: I Semana de Pedagogia do Campus Acaraú
 
   - data: 2026-03-18
@@ -150,12 +153,13 @@ eventos:
     texto: REAJUSTE DE MATRÍCULA on-line para o Semestre Letivo 2026.1
 
   - data: 2026-04-07
+    inicia: 2026-03-30
     agente: Docentes
     texto: Término do período de cadastramento on-line de MONITORES VOLUNTÁRIOS referentes ao Semestre Letivo 2026.1 pelos docentes
 
   - data: 2026-04-08
     tipo: matrícula
-    texto: MATRÍCULA DE RETARDATÁRIOS on-line para o Semestre Letivo 2026.1
+    texto: MATRÍCULA DE RETARDATÁRIOS on-line para o Semestre Letivo 2026.1 (único dia)
 
   - data: 2026-04-10
     texto: Prazo final para o RESULTADO das solicitações de OUTORGA DE GRAU referente ao Semestre Letivo 2025.2
@@ -165,6 +169,8 @@ eventos:
 
   - data: 2026-04-16
     termina: 2026-04-17
+    localidades:
+      - Ibiapaba
     texto: I Feira Literária Infantil - Campus Ibiapaba
 
   - data: 2026-04-17
@@ -172,6 +178,7 @@ eventos:
     texto: Período de solicitação de DIPLOMA (via Sistema de Requerimento Online) pelos estudantes concluintes do Semestre Letivo 2025.2
 
   - data: 2026-04-20
+    termina: 2026-04-24
     texto: Período de solicitação de OUTORGA DE GRAU em período especial referente ao Semestre Letivo 2025.2
 
   - data: 2026-04-21
@@ -184,6 +191,8 @@ eventos:
 
   - data: 2026-04-28
     termina: 2026-04-29
+    localidades:
+      - Ibiapaba
     texto: I Seminário do Grupo de Pesquisa EDUCAS/UVA - Campus Ibiapaba
 
   - data: 2026-05-01
@@ -191,7 +200,6 @@ eventos:
     texto: FERIADO NACIONAL – Dia do Trabalhador
 
   - data: 2026-05-04
-    inicia: 2026-05-04
     termina: 2026-05-08
     agente: Coordenações
     texto: Período de tramitação via Sistema de Requerimento Online (SRO) das solicitações de APROVEITAMENTO DE ESTUDOS para o semestre 2026.1 pelas coordenações de Cursos à PROGRAD
@@ -284,8 +292,8 @@ eventos:
     texto: XII Semana de Química
 
   - data: 2026-06-22
-    agente: Docentes
     termina: 2026-08-06
+    agente: Docentes
     texto: Início do período de cadastramento on-line das NOTAS do Semestre Letivo 2026.1 pelos docentes
 
   - data: 2026-06-26
@@ -310,6 +318,7 @@ eventos:
     texto: FERIADO MUNICIPAL – Aniversário de Sobral
 
   - data: 2026-07-06
+    termina: 2026-07-24
     texto: Início da validação da OFERTA 2026.2 pela PROGRAD
 
   - data: 2026-07-13
